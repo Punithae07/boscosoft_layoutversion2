@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CristO - Church & Religious Organization Management Software. Streamline parish administration, member management, and financial reporting for dioceses and congregations.">
+    <meta name="keywords" content="Church Management Software, Parish Management, Religious Organization ERP, Diocese Software, Parokia, Religio, Cathedra, CristO">
+    <meta name="author" content="BoscoSoft Technologies">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.boscosofttech.com/cristo.html">
+    <meta property="og:title" content="CristO | Church Management Software for Religious Organizations | BoscoSoftTech">
+    <meta property="og:description" content="Comprehensive church management solution for parishes, dioceses, and religious congregations. Built by the church, for the church.">
+    <meta property="og:image" content="https://www.boscosofttech.com/images/solutions/cristo-hero.svg">
+
+    <link rel="canonical" href="https://www.boscosofttech.com/cristo.html">
+    <title>CristO | Church & Religious Organization Management | BoscoSoftTech</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/bosco-logo.png" alt="BoscoSoft Technologies Logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="d-flex justify-content-end d-lg-none p-3">
+                    <button class="btn-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-label="Close"></button>
+                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item py-2 px-4" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="mission.html">Mission & Vision</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Solutions Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Solutions</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Solutions</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-4 text-white-50">
+                                            Enterprise-grade software designed for schools, hospitals, and NGOs.
+                                        </p>
+                                        <a href="index.html#portfolio"
+                                            class="btn btn-outline-light btn-sm rounded-pill px-4">View
+                                            All Products</a>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Enterprise Solutions</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="acme-erp.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-chart-line"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Acme.erp</span>
+                                                        <span class="mega-menu-desc">NGO Financial Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="smart-school-plus.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">SmartSchool+</span>
+                                                        <span class="mega-menu-desc">School Management ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="higrade.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-university"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">HiGrade</span>
+                                                        <span class="mega-menu-desc">Higher Education ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="medsysb.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-hospital-user"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MedSysB</span>
+                                                        <span class="mega-menu-desc">Hospital Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="cristo.html" class="mega-menu-item dropdown-item active">
+                                                    <div class="mega-menu-icon"><i class="fas fa-church"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">CristO</span>
+                                                        <span class="mega-menu-desc">Religious Resource Planning</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="microfund.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-coins"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MicroFUND</span>
+                                                        <span class="mega-menu-desc">Microfinance Solutions</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="eaudithub.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-clipboard-check"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">eAUDiTHub</span>
+                                                        <span class="mega-menu-desc">Digital Audit & Compliance</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center">
+                                        <div class="mega-menu-promo text-center">
+                                            <img src="images/banking-system.jpg" alt="Special Offer"
+                                                class="mega-menu-promo-img img-fluid" loading="lazy">
+                                            <h6 class="fw-bold mb-2">New: AI Copilot</h6>
+                                            <p class="small text-muted mb-3">Transform your administration with our
+                                                latest AI analytical tools.</p>
+                                            <a href="index.html#contact"
+                                                class="btn btn-primary btn-sm rounded-pill">Explore
+                                                Beta</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Services Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Services</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-0 text-white-50">
+                                            Comprehensive software services and bespoke solutions tailored for the
+                                            modern digital era.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Expertise & Services</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="app-modernization.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-sync-alt"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">App Modernization</span>
+                                                        <span class="mega-menu-desc">Legacy to Cloud Transition</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="bespoke-solutions.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-tools"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bespoke Solution</span>
+                                                        <span class="mega-menu-desc">Tailored Software Design</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#gen-ai" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-robot"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Gen AI Systems</span>
+                                                        <span class="mega-menu-desc">AI-Driven Business Logic</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="erp-customization.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-cogs"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">ERP Customization</span>
+                                                        <span class="mega-menu-desc">Specialized Module Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="staff-augmentation.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-users-cog"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Staff Augmentation</span>
+                                                        <span class="mega-menu-desc">Expert On-Demand Talent</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#academy" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bosco Academy</span>
+                                                        <span class="mega-menu-desc">Professional Skill Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center text-center">
+                                        <div class="mega-menu-promo">
+                                            <i class="fas fa-lightbulb text-primary fs-1 mb-3"></i>
+                                            <h6 class="fw-bold mb-2">Need a Custom Quote?</h6>
+                                            <p class="small text-muted mb-3">Our experts are ready to help you define
+                                                your technical roadmap.</p>
+                                            <a href="index.html#contact" class="btn btn-primary btn-sm">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#career">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-primary rounded-pill px-4" href="#contact">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Acme.erp Hero Section -->
+    <div class="acme-hero-wrapper">
+        <section class="acme-hero-section solution-hero-cristo section-padding pt-5">
+            <div class="container">
+                <!-- Breadcrumbs -->
+                <nav aria-label="breadcrumb" class="mb-5">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.html#portfolio">Solutions</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">CristO</li>
+                    </ol>
+                </nav>
+                <div class="row align-items-center">
+                    <div class="col-lg-12 hero-text-col text-center">
+                        <span class="acme-hero-tag mb-3 d-inline-block">CHURCH MANAGEMENT SOFTWARE</span>
+                        <h1 class="acme-hero-title mb-4">
+                            A Software For <span>Church Organizations</span>
+                        </h1>
+                        <p class="acme-hero-desc mb-5">
+                            CristO is built by the church, for the church. Our comprehensive solution manages parishes, dioceses, religious congregations, and church organizations with specialized features for member management, financial reporting, and sacramental records. Trusted by 100+ parishes and 5+ dioceses across multiple provinces.
+                        </p>
+                        <div class="acme-hero-btns d-flex flex-wrap gap-3 justify-content-center">
+                            <a href="https://cristoerp.com/contact#contact-sec" target="_blank" class="btn btn-primary btn-lg rounded-pill px-4">Request Demo</a>
+                            <a href="https://www.cristoerp.com/" target="_blank"
+                                class="btn btn-outline-primary btn-lg rounded-pill px-4">Explore Website</a>
+                        </div>
+                        <div class="acme-stats-card mt-5">
+                            <div class="hero-trust-stats d-flex flex-wrap gap-4 justify-content-center w-100">
+                                <div class="stat-item">
+                                    <h4 class="mb-0 fw-bold">25+</h4>
+                                    <p class="small text-light mb-0">Years Experience</p>
+                                </div>
+                                <div class="stat-item border-start border-light border-opacity-25 ps-sm-4 text-start">
+                                    <h4 class="mb-0 fw-bold">100+</h4>
+                                    <p class="small text-light mb-0">Active Parishes</p>
+                                </div>
+                                <div class="stat-item border-start border-light border-opacity-25 ps-sm-4 text-start">
+                                    <h4 class="mb-0 fw-bold">5+</h4>
+                                    <p class="small text-light mb-0">Dioceses</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Manual-Scroll Modules Section -->
+    <section id="modules" class="section-padding bg-pattern-circuit overflow-hidden pb-5">
+
+        <div class="container reveal mb-5 text-center">
+            <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                style="letter-spacing: 2px; font-size: 0.85rem;">CORE MODULES</span>
+            <h2 class="section-title display-6 fw-bold text-dark mb-3">CristO Product Suite for Church Administration</h2>
+            <p class="text-muted mx-auto fs-5 reveal delay-100" style="max-width: 700px;">Explore the four core CristO solutions and the shared ministry tools that support parishes, dioceses, religious institutes, apostolic centers, families, and individual members.</p>
+        </div>
+
+        <div class="container position-relative">
+            <div class="modules-scroll-container pb-4" id="modulesScrollContainer">
+                <div class="modules-scroll-track reveal delay-200" id="modulesScrollTrack">
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-cross"></i></div>
+                        <div class="module-new-title">Parokia</div>
+                        <div class="module-new-desc">Parish management software that helps teams organize family and parish information, streamline daily administration, and serve parish communities more effectively.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-book"></i></div>
+                        <div class="module-new-title">Religio</div>
+                        <div class="module-new-desc">Province management software for religious institutes with communication tools, member records, assignment history, planning, reporting, and archiving.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-building"></i></div>
+                        <div class="module-new-title">Cathedra</div>
+                        <div class="module-new-desc">Diocese management software that brings together family records, member details, parish information, communication, planning, reporting, and archives in one place.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-church"></i></div>
+                        <div class="module-new-title">Charisma</div>
+                        <div class="module-new-desc">Denominational church management software built for community engagement, youth groups, ministry coordination, and church event administration.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-address-book"></i></div>
+                        <div class="module-new-title">Family & Member Records</div>
+                        <div class="module-new-desc">Maintain church member databases, family records, sacramental data, and personal profiles with quick, organized access for ministry teams.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-comments"></i></div>
+                        <div class="module-new-title">Communication Hub</div>
+                        <div class="module-new-desc">Coordinate circulars, emails, meetings, and institutional communication across provinces, dioceses, parishes, and apostolic organizations.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="module-new-title">Planning & Reporting</div>
+                        <div class="module-new-desc">Support pastoral planning, institutional follow-up, and decision-making with structured reports, summaries, and administrative oversight tools.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-box-archive"></i></div>
+                        <div class="module-new-title">Archives & History</div>
+                        <div class="module-new-desc">Preserve chronicles, concerns, institutional history, and important administrative records in a searchable digital archive.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls (Bottom row) -->
+            <div class="d-flex justify-content-between align-items-center mt-4 modules-nav-row">
+                <a href="https://www.cristoerp.com/" target="_blank" class="btn btn-primary rounded-pill px-4 py-2">View all services <i class="fas fa-chevron-right ms-2 fs-6"></i></a>
+
+                <div class="modules-pagination d-flex gap-2" id="modulesPagination">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="modules-arrows d-flex gap-2">
+                    <button type="button" class="btn slider-btn-oval shadow-sm" id="btnScrollLeft"><i class="fas fa-chevron-left"></i></button>
+                    <button type="button" class="btn slider-btn-oval shadow-sm" id="btnScrollRight"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Background Elements -->
+        <div class="floating-bg-elements">
+            <div class="floating-shape floating-circle" style="top: 15%; left: 10%; animation-delay: 0s;"></div>
+            <div class="floating-shape floating-circle" style="top: 40%; right: 15%; animation-delay: 2s;"></div>
+            <div class="floating-shape floating-square" style="bottom: 25%; left: 25%; animation-delay: 4s;"></div>
+            <div class="floating-shape floating-circle" style="top: 60%; right: 25%; animation-delay: 1s;"></div>
+            <div class="floating-shape floating-square" style="bottom: 10%; right: 10%; animation-delay: 3s;"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-padding text-dark position-relative">
+        <!-- Parallax Light Overlay isolated to prevent Chrome transform bugs -->
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url('images/case-study-school.jpg'); background-size: cover; background-attachment: fixed; z-index: -2;">
+        </div>
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(240, 248, 255, 0.85); z-index: -1;">
+        </div>
+
+        <div class="container reveal">
+            <div class="text-center mb-4 reveal" style="transition-delay: 0.4s;">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">FEATURES</span>
+                <h2 class="display-5 fw-bold text-dark mb-3 lh-base">Why CristO is the Best Choice for <span
+                        class="text-primary">Religious Organizations?</span></h2>
+                <p class="fs-6 text-muted mb-0">Built by the Church, for the Church, with trusted privacy, mission-aligned support, and purpose-built tools for ministry administration.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Row 1 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.1s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-cross fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Built by the Church</h6>
+                        <p class="small text-white opacity-75 mb-0">CristO is a mission-driven solution designed by clergy and religious who understand the daily realities of church administration.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.2s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-user-shield fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Data Privacy</h6>
+                        <p class="small text-dark opacity-75 mb-0">Church data stays protected. CristO emphasizes secure handling of records without selling or monetizing your information.</p>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.3s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-handshake-angle fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Long-Term Support</h6>
+                        <p class="small text-white opacity-75 mb-0">Backed and sustained by the Salesian Congregation, CristO is built for long-term continuity and practical support.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.5s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-scale-balanced fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Affordable & Ethical</h6>
+                        <p class="small text-dark opacity-75 mb-0">Its non-profit model is designed to deliver more value at a lower cost for dioceses, parishes, and congregations.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.6s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-globe fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Deep Domain Expertise</h6>
+                        <p class="small text-white opacity-75 mb-0">Trusted by Catholic institutions worldwide, CristO reflects practical experience across church and ministry contexts.</p>
+                    </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.7s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-right-from-bracket fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Transparent Exit Policy</h6>
+                        <p class="small text-dark opacity-75 mb-0">You stay in control of your records with no hidden conditions and no data lock-in when your organization needs flexibility.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.8s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-comments fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Communication Tools</h6>
+                        <p class="small text-white opacity-75 mb-0">Manage circulars, emails, meetings, and ministry communication through tools designed for church leadership and teams.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.9s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-clipboard-list fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Planning & Reporting</h6>
+                        <p class="small text-dark opacity-75 mb-0">Track assignments, community information, pastoral plans, and reports with tools that support organized administration.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 1.0s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-cloud fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Secure Cloud Access</h6>
+                        <p class="small text-white opacity-75 mb-0">Run administration from a secure cloud platform that supports remote access for dioceses, provinces, parishes, and institutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-light position-relative z-1">
+        <div class="testimonial-gradient-bg"></div>
+        <div class="testimonial-floating-bg">
+            <div class="test-floating-shape test-floating-circle" style="top: 20%; left: 12%; animation-delay: 0s;"></div>
+            <div class="test-floating-shape test-floating-blob" style="top: 75%; right: 10%; width: 90px; height: 90px; animation-delay: 1.4s;"></div>
+            <div class="test-floating-shape test-floating-circle" style="top: 50%; left: 70%; animation-delay: 2.2s;"></div>
+            <div class="test-floating-shape test-floating-blob" style="bottom: 10%; left: 20%; width: 75px; height: 75px; animation-delay: 3s;"></div>
+        </div>
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">SUCCESS STORIES</span>
+                <h2 class="section-title display-6 fw-bold text-dark mb-3">Trusted by Church Organizations</h2>
+                <p class="text-muted mx-auto fs-5 reveal delay-100" style="max-width: 700px;">Discover what church leaders and administrators have to say about transforming their parish operations with CristO.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Left Column: Testimonial Cards -->
+                <div class="col-lg-6">
+                    <div class="testimonial-cards-container">
+                        <!-- Testimonial Card 1 -->
+                        <div class="testimonial-card mb-4 reveal">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“This is to certify that CristO App from your Bosco Soft Technologies Pvt.Ltd was very friendly app to manage the day-to-day affairs of parish. Really it is very useful and very effective. The team provides excellent service both directly and online. So, I sincerely thank for all your wonderful support.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">St. joseph’s church, selaiyur</h6>
+                                    <small class="text-muted">Chennai diocese of chengalpattu</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 2 -->
+                        <div class="testimonial-card mb-4 reveal delay-200">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“We would like to express our gratitude for the technical assistance provided for the software installation. We are very pleased with the software and the newly designed mobile application. The team's help over the past fifty days in uploading data from our archives was invaluable.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">The society of the catholic apostolate, prabhu prakash province</h6>
+                                    <small class="text-muted">Nagpur</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Single Image -->
+                <div class="col-lg-6">
+                    <div class="testimonial-image-container reveal delay-300">
+                        <div class="testimonial-main-image">
+                            <img src="images/cristo/hero01.png" alt="Church Management & Operations" class="img-fluid rounded-3 shadow-lg">
+                            <div class="testimonial-image-overlay">
+                                <div class="testimonial-image-badge">
+                                    <i class="fas fa-church text-white me-2"></i>
+                                    <span class="text-white fw-bold">Church Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Marquee -->
+    <section class="py-5 bg-white overflow-hidden border-top">
+        <div class="container">
+            <div class="text-center mb-4 reveal">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">OUR TRUSTED PARTNERS</span>
+            </div>
+            <div class="partners-marquee-container">
+                <div class="partners-marquee-track">
+                    <div class="partner-item"><img src="images/cristo/client01.png" alt="Don Bosco School"></div>
+                    <div class="partner-item"><img src="images/cristo/client02.png" alt="St. Bedes Academy"></div>
+                    <div class="partner-item"><img src="images/cristo/client03.png" alt="Auxilium School"></div>
+                    <div class="partner-item"><img src="images/cristo/client04.png" alt="Holy Angels’ Public School"></div>
+                    <div class="partner-item"><img src="images/cristo/client05.png" alt="Cluny Matriculation"></div>
+                    <div class="partner-item"><img src="images/cristo/client06.png" alt="St. Paul's School"></div>
+                    <!-- Duplicate for continuous scrolling -->
+                    <div class="partner-item"><img src="images/cristo/client07.png" alt="St. Paul's School"></div>
+                    <div class="partner-item"><img src="images/cristo/client08.png" alt="St. Paul's School"></div>
+                    <div class="partner-item"><img src="images/cristo/client09.png" alt="St. Paul's School"></div>
+                    <div class="partner-item"><img src="images/cristo/client10.png" alt="St. Paul's School"></div>
+                    <div class="partner-item"><img src="images/cristo/client011.png" alt="St. Paul's School"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding position-relative overflow-hidden border-top">
+        <div class="faq-gradient-bg"></div>
+        <div class="faq-grid-overlay"></div>
+        <div class="container position-relative z-1">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="sticky-top" style="top: 120px;">
+                        <div class="text-start reveal reveal-left">
+                            <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                                style="letter-spacing: 2px; font-size: 0.85rem;">FAQ</span>
+                            <h2 class="section-title display-6 fw-bold text-dark mb-3">Common questions
+                                about<br>CristO</h2>
+                            <p class="text-muted pe-md-4 fs-5 reveal delay-100">Find answers to common questions about
+                                CristO implementation and features. Discover how we help religious organizations streamline operations and financial reporting.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="accordion" id="sspFaq">
+                        <div class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-100">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button bg-transparent fw-bold text-dark px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Why Choose CristO?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                   CristO simplifies church management by automating church attendance tracking, sacrament records, and online giving. It provides a scalable, secure church CRM software that enhances parishioner engagement, improves financial transparency with detailed church reporting tools, and streamlines volunteer management. Our cloud-based church software ensures secure remote access and data encryption for administrative peace of mind.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-200">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    What is Parokia, and how can it benefit our parish?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                   Parokia is software tailored for parishes and religious entities to simplify and coordinate various administrative responsibilities
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    What is Religio, and how can it benefit our province?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Religio is a software that empowers users to efficiently manage various aspects, including communication (circulars, emails, and meetings), record-keeping (chronicles and concerns), member information (both critical and personal), assignments, historical data, institution/community details, planning, reporting, and archiving
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                   What kind of technical support is available for CristO?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                   Our team is available 24/7 to address your queries, troubleshoot issues, and provide guidance whenever you need it, ensuring you're never left without the help you require
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Started Section -->
+    <section class="app-download-section" style="overflow: visible;">
+        <div class="container reveal position-relative" style="z-index: 2;">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center text-lg-start position-relative">
+                    <!-- Church Management Software Illustration -->
+                    <img src="images/cristo/cristodesktop.png" alt="CristO Church Management Software" class="demo-illustration acme-demo-illustration rounded-4">
+                </div>
+                <div class="col-lg-7 offset-lg-0">
+                    <h2 class="display-5 app-download-title mb-4 reveal">Ready to Transform Your Church Operations?</h2>
+                    <p class="fs-5 text-muted mb-5 pe-lg-5 reveal delay-100">Experience streamlined parish management, comprehensive member tracking, and powerful financial reporting tools designed specifically for religious organizations. Take the first step towards simplifying your operations.</p>
+
+                    <div class="d-flex flex-wrap gap-3 reveal delay-200">
+                        <a href="https://cristoerp.com/contact#contact-sec" target="_blank" class="btn btn-primary btn-lg rounded-pill px-5">
+                            <i class="fas fa-calendar-check me-2"></i>Request Demo
+                        </a>
+                        <a href="https://www.cristoerp.com/" target="_blank" class="btn btn-outline-primary btn-lg rounded-pill px-5">
+                            <i class="fas fa-globe me-2"></i>Visit Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Get In Touch Section (Spans 2 logical columns) -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h5 class="footer-heading">Get In Touch</h5>
+                    <div class="footer-underline"></div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <h6 class="footer-subheading">Registered Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies Pvt. Ltd.<br>
+                                No. 231/77, S.H.C Complex,<br>
+                                Vaniyambadi Road,<br>
+                                Tirupattur District,<br>
+                                TN 635 601 INDIA.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-phone-alt"></i> +91 9626 800 800
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> binfo@boscosofttech.com
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="footer-subheading">Middle East Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies FZE<br>
+                                BC4, Business Park RAK Free<br>
+                                Trade Zone, Ras Al Khaimah,<br>
+                                UAE.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-mobile-alt"></i> +971 058 860 1821
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> info@boscosoft.ae
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-globe"></i> www.boscosoft.ae
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">About Us</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#career">Career</a></li>
+                        <li><a href="index.html#signup">Sign up</a></li>
+                        <li><a href="index.html#training">Training</a></li>
+                        <li><a href="index.html#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Solutions -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Solutions</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="acme-erp.html">Acme.erp</a></li>
+                        <li><a href="smart-school-plus.html">SmartSchoolPlus</a></li>
+                        <li><a href="higrade.html">HiGrade</a></li>
+                        <li><a href="medsysb.html">MedSysB</a></li>
+                        <li><a href="cristo.html">CristO</a></li>
+                        <li><a href="microfund.html">MicroFUND</a></li>
+                        <li><a href="eaudithub.html">eAUDiTHub</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-heading">Services</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="app-modernization.html">App Modernization</a></li>
+                        <li><a href="bespoke-solutions.html">Bespoke Solution</a></li>
+                        <li><a href="index.html#gen-ai">Gen AI Systems</a></li>
+                        <li><a href="erp-customization.html">ERP Customization</a></li>
+                        <li><a href="staff-augmentation.html">Staff Augmentation</a></li>
+                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a href="index.html#academy">Bosco Academy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="copyright-text">&copy; 2026 <span class="text-teal"></span>Bosco Soft Technologies
+                            Pvt. Ltd.</span> All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-policy-links">
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Refund Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Mobile CTA Bar -->
+    <div class="mobile-cta-bar">
+        <a href="tel:+914443585002" class="btn btn-primary">
+            <i class="fas fa-phone-alt me-2"></i> Call Us
+        </a>
+        <a href="https://wa.me/919444000000" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp me-2"></i> WhatsApp
+        </a>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/solution-page.js"></script>
+    
+    <!-- Immediate reveal fallback -->
+    <script>
+        (function() {
+            function revealAll() {
+                document.querySelectorAll('[class*="reveal"]').forEach(el => {
+                    el.classList.add('active');
+                });
+            }
+            
+            // Immediate reveal
+            revealAll();
+            
+            // Re-run after each paint
+            setTimeout(revealAll, 100);
+            setTimeout(revealAll, 300);
+            setTimeout(revealAll, 500);
+            
+            // Periodic check
+            setInterval(revealAll, 1000);
+        })();
+    </script>
+</body>
+
+</html>

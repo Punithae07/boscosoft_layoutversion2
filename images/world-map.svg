@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Dot pattern for continents -->
+    <pattern id="dotPattern" x="0" y="0" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.5" fill="#0066CC" opacity="0.35"/>
+    </pattern>
+  </defs>
+  
+  <!-- World Map with Recognizable Continents -->
+  <g id="world-map">
+    
+    <!-- North America -->
+    <path d="M 150,120 Q 180,100 210,110 L 240,100 Q 260,105 270,120 L 280,140 Q 285,160 280,180 L 270,200 Q 260,220 250,230 L 230,240 Q 210,245 190,240 L 170,230 Q 155,220 145,200 L 140,180 Q 138,160 142,140 Z" fill="url(#dotPattern)"/>
+    
+    <!-- South America -->
+    <path d="M 220,250 Q 235,255 245,270 L 250,290 Q 252,310 248,330 L 240,350 Q 230,365 215,370 L 200,368 Q 185,360 180,345 L 175,325 Q 173,305 178,285 L 185,265 Z" fill="url(#dotPattern)"/>
+    
+    <!-- Europe -->
+    <path d="M 450,110 Q 470,105 485,112 L 500,120 Q 510,130 515,145 L 518,160 Q 516,175 508,185 L 495,190 Q 480,192 465,188 L 452,180 Q 445,170 443,155 L 442,140 Q 444,125 450,110 Z" fill="url(#dotPattern)"/>
+    
+    <!-- Africa -->
+    <path d="M 470,200 Q 490,198 505,205 L 520,220 Q 530,240 532,260 L 530,285 Q 525,310 515,330 L 500,345 Q 480,352 460,348 L 445,340 Q 435,325 432,305 L 430,280 Q 432,255 440,235 L 452,215 Z" fill="url(#dotPattern)"/>
+    
+    <!-- Asia -->
+    <path d="M 530,115 Q 560,110 590,118 L 625,125 Q 655,135 680,150 L 705,170 Q 720,190 725,215 L 728,240 Q 725,265 715,285 L 695,305 Q 670,315 645,318 L 615,315 Q 585,308 560,295 L 540,280 Q 525,260 520,235 L 518,210 Q 520,185 528,160 Z" fill="url(#dotPattern)"/>
+    
+    <!-- Australia -->
+    <path d="M 720,310 Q 745,308 765,318 L 780,330 Q 788,345 790,360 L 788,378 Q 782,392 770,400 L 750,405 Q 730,403 715,395 L 705,380 Q 700,365 702,348 L 708,330 Z" fill="url(#dotPattern)"/>
+    
+    <!-- Greenland -->
+    <path d="M 320,50 Q 340,45 355,52 L 365,65 Q 370,80 368,95 L 360,108 Q 345,115 330,110 L 318,98 Q 313,83 315,68 Z" fill="url(#dotPattern)"/>
+    
+    <!-- Antarctica (bottom) -->
+    <ellipse cx="500" cy="460" rx="280" ry="25" fill="url(#dotPattern)" opacity="0.6"/>
+  </g>
+</svg>

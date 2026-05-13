@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="MedSysB - The Leading Hospital Management System. Streamline hospital operations, patient management, and administrative workflows.">
+    <meta name="keywords"
+        content="Hospital Management System, HMS, Healthcare ERP, MedSysB, Patient Management, Hospital Software">
+    <meta name="author" content="BoscoSoft Technologies">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.boscosofttech.com/medsysb.html">
+    <meta property="og:title" content="MedSysB | Leading Hospital Management System | BoscoSoftTech">
+    <meta property="og:description"
+        content="Integrated hospital management system for streamlined operations and superior patient care.">
+    <meta property="og:image" content="https://www.boscosofttech.com/images/case-study-hospital.jpg">
+
+    <link rel="canonical" href="https://www.boscosofttech.com/medsysb.html">
+    <title>MedSysB | Leading Hospital Management System | BoscoSoftTech</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/bosco-logo.png" alt="BoscoSoft Technologies Logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="d-flex justify-content-end d-lg-none p-3">
+                    <button class="btn-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-label="Close"></button>
+                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item py-2 px-4" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="mission.html">Mission & Vision</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Solutions Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Solutions</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Solutions</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-4 text-white-50">
+                                            Enterprise-grade software designed for schools, hospitals, and NGOs.
+                                        </p>
+                                        <a href="index.html#portfolio"
+                                            class="btn btn-outline-light btn-sm rounded-pill px-4">View
+                                            All Products</a>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Enterprise Solutions</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="acme-erp.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-chart-line"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Acme.erp</span>
+                                                        <span class="mega-menu-desc">NGO Financial Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="smart-school-plus.html"
+                                                    class="mega-menu-item dropdown-item active">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">SmartSchool+</span>
+                                                        <span class="mega-menu-desc">School Management ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="higrade.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-university"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">HiGrade</span>
+                                                        <span class="mega-menu-desc">Higher Education ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="medsysb.html" class="mega-menu-item dropdown-item active">
+                                                    <div class="mega-menu-icon"><i class="fas fa-hospital-user"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MedSysB</span>
+                                                        <span class="mega-menu-desc">Hospital Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="cristo.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-church"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">CristO</span>
+                                                        <span class="mega-menu-desc">Religious Resource Planning</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="microfund.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-coins"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MicroFUND</span>
+                                                        <span class="mega-menu-desc">Microfinance Solutions</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="eaudithub.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-clipboard-check"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">eAUDiTHub</span>
+                                                        <span class="mega-menu-desc">Digital Audit & Compliance</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center">
+                                        <div class="mega-menu-promo text-center">
+                                            <img src="images/banking-system.jpg" alt="Special Offer"
+                                                class="mega-menu-promo-img img-fluid" loading="lazy">
+                                            <h6 class="fw-bold mb-2">New: AI Copilot</h6>
+                                            <p class="small text-muted mb-3">Transform your administration with our
+                                                latest AI analytical tools.</p>
+                                            <a href="index.html#contact"
+                                                class="btn btn-primary btn-sm rounded-pill">Explore
+                                                Beta</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Services Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Services</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-0 text-white-50">
+                                            Comprehensive software services and bespoke solutions tailored for the
+                                            modern digital era.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Expertise & Services</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="app-modernization.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-sync-alt"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">App Modernization</span>
+                                                        <span class="mega-menu-desc">Legacy to Cloud Transition</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="bespoke-solutions.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-tools"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bespoke Solution</span>
+                                                        <span class="mega-menu-desc">Tailored Software Design</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#gen-ai" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-robot"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Gen AI Systems</span>
+                                                        <span class="mega-menu-desc">AI-Driven Business Logic</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="erp-customization.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-cogs"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">ERP Customization</span>
+                                                        <span class="mega-menu-desc">Specialized Module Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="staff-augmentation.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-users-cog"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Staff Augmentation</span>
+                                                        <span class="mega-menu-desc">Expert On-Demand Talent</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#academy" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bosco Academy</span>
+                                                        <span class="mega-menu-desc">Professional Skill Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center text-center">
+                                        <div class="mega-menu-promo">
+                                            <i class="fas fa-lightbulb text-primary fs-1 mb-3"></i>
+                                            <h6 class="fw-bold mb-2">Need a Custom Quote?</h6>
+                                            <p class="small text-muted mb-3">Our experts are ready to help you define
+                                                your technical roadmap.</p>
+                                            <a href="index.html#contact" class="btn btn-primary btn-sm">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#career">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-primary rounded-pill px-4" href="#contact">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Medsysb Hero Section -->
+    <div class="ssp-hero-wrapper">
+        <section class="ssp-hero-section medsysb-hero section-padding pt-5">
+            <div class="container">
+                <!-- Breadcrumbs -->
+                <nav aria-label="breadcrumb" class="mb-5">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.html#portfolio">Solutions</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">MedSysB</li>
+                    </ol>
+                </nav>
+                <div class="row align-items-center">
+                    <div class="col-lg-12 hero-text-col text-center">
+                        <span class="ssp-hero-tag mb-3 d-inline-block">INTEGRATED HOSPITAL MANAGEMENT</span>
+                        <h1 class="ssp-hero-title mb-4">
+                            The Leading Solution for <span>Streamlined Hospital Operations</span>
+                        </h1>
+                        <p class="ssp-hero-desc mb-5">
+                            Enhancing Efficiency and Innovation in Healthcare Management. MedSysB is a comprehensive hospital management software designed to oversee all administrative and operational aspects of hospitals and clinics.
+                        </p>
+                        <div class="ssp-hero-btns d-flex flex-wrap gap-3 justify-content-center">
+                            <a href="https://medsysb.com/free-demo.php" target="_blank" class="btn btn-primary btn-lg rounded-pill px-4">Request Free Demo</a>
+                            <a href="https://medsysb.com/" target="_blank"
+                                class="btn btn-outline-primary btn-lg rounded-pill px-4">Explore Website</a>
+                        </div>
+                        <div class="ssp-stats-card mt-5">
+                            <div class="hero-trust-stats d-flex flex-wrap gap-4 justify-content-center w-100">
+                                <div class="stat-item">
+                                    <h4 class="mb-0 fw-bold">100+</h4>
+                                    <p class="small text-light mb-0">Hospitals</p>
+                                </div>
+                                <div class="stat-item border-start border-light border-opacity-25 ps-sm-4 text-start">
+                                    <h4 class="mb-0 fw-bold">20+</h4>
+                                    <p class="small text-light mb-0">Years Exp</p>
+                                </div>
+                                <div class="stat-item border-start border-light border-opacity-25 ps-sm-4 text-start">
+                                    <h4 class="mb-0 fw-bold">24/7</h4>
+                                    <p class="small text-light mb-0">Support</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="transform-bg-polygon" style="background:#f8f9fa" aria-hidden="true"></div>
+        </section>
+    </div>
+
+
+    <!-- Manual-Scroll Modules Section -->
+    <section id="modules" class="section-padding bg-pattern-circuit overflow-hidden pb-5">
+
+        <div class="container reveal mb-5 text-center">
+            <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                style="letter-spacing: 2px; font-size: 0.85rem;">MODULES</span>
+            <h2 class="section-title display-6 fw-bold text-dark mb-3">Comprehensive Hospital Management</h2>
+            <p class="text-muted mx-auto fs-5 reveal delay-100" style="max-width: 700px;">Explore our integrated suite of advanced tools designed to streamline hospital operations and enhance patient care.</p>
+        </div>
+
+        <div class="container position-relative">
+            <div class="modules-scroll-container pb-4" id="modulesScrollContainer">
+                <div class="modules-scroll-track reveal delay-200" id="modulesScrollTrack">
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        <div class="module-new-title">Hospital Dashboard</div>
+                        <div class="module-new-desc">Centralized dashboard providing real-time insights into hospital operations, patient statistics, and key performance indicators for informed decision-making.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-user-md"></i></div>
+                        <div class="module-new-title">Doctor Module</div>
+                        <div class="module-new-desc">Comprehensive doctor management including schedules, appointments, patient records, and consultation notes for efficient healthcare delivery.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-cogs"></i></div>
+                        <div class="module-new-title">Administration</div>
+                        <div class="module-new-desc">Handles all administrative tasks including staff management, resource allocation, and operational workflows to ensure smooth hospital functioning.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-user-plus"></i></div>
+                        <div class="module-new-title">Out-Patient Registration</div>
+                        <div class="module-new-desc">Streamlined registration process for out-patients with quick data entry, appointment scheduling, and automated patient ID generation.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-bed"></i></div>
+                        <div class="module-new-title">In-Patient Registration</div>
+                        <div class="module-new-desc">Manages in-patient admissions, bed allocation, discharge planning, and comprehensive patient tracking throughout their stay.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-flask"></i></div>
+                        <div class="module-new-title">Investigation</div>
+                        <div class="module-new-desc">Laboratory and diagnostic services management including test ordering, result tracking, and integration with medical records.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-pills"></i></div>
+                        <div class="module-new-title">Pharmacy</div>
+                        <div class="module-new-desc">Complete pharmacy management with inventory control, prescription processing, drug dispensing, and billing integration.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-procedures"></i></div>
+                        <div class="module-new-title">Operation Theatre</div>
+                        <div class="module-new-desc">Surgical scheduling, resource management, and documentation for operation theatres ensuring efficient surgical procedures.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-calculator"></i></div>
+                        <div class="module-new-title">Billing & Finance</div>
+                        <div class="module-new-desc">Comprehensive billing system with insurance integration, payment processing, and financial reporting for hospital revenue management.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-file-medical"></i></div>
+                        <div class="module-new-title">Medical Records</div>
+                        <div class="module-new-desc">Electronic health records system for secure storage, retrieval, and management of patient medical histories and documents.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-utensils"></i></div>
+                        <div class="module-new-title">Dietary Management</div>
+                        <div class="module-new-desc">Nutrition planning and dietary services management including meal planning, patient dietary requirements, and kitchen operations.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-users-cog"></i></div>
+                        <div class="module-new-title">Payroll</div>
+                        <div class="module-new-desc">Human resources management with employee records, payroll processing, attendance tracking, and staff scheduling.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls (Bottom row) -->
+            <div class="d-flex justify-content-between align-items-center mt-4 modules-nav-row">
+                <a href="https://smartschoolonline.com/#sec-modules" target="_blank" class="btn btn-primary rounded-pill px-4 py-2">View all services <i class="fas fa-chevron-right ms-2 fs-6"></i></a>
+
+                <div class="modules-pagination d-flex gap-2" id="modulesPagination">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="modules-arrows d-flex gap-2">
+                    <button type="button" class="btn slider-btn-oval shadow-sm" id="btnScrollLeft"><i class="fas fa-chevron-left"></i></button>
+                    <button type="button" class="btn slider-btn-oval shadow-sm" id="btnScrollRight"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Background Elements -->
+        <div class="floating-bg-elements">
+            <div class="floating-shape floating-circle" style="top: 15%; left: 10%; animation-delay: 0s;"></div>
+            <div class="floating-shape floating-circle" style="top: 40%; right: 15%; animation-delay: 2s;"></div>
+            <div class="floating-shape floating-square" style="bottom: 25%; left: 25%; animation-delay: 4s;"></div>
+            <div class="floating-shape floating-circle" style="top: 60%; right: 25%; animation-delay: 1s;"></div>
+            <div class="floating-shape floating-square" style="bottom: 10%; right: 10%; animation-delay: 3s;"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-padding text-dark position-relative">
+        <!-- Parallax Light Overlay isolated to prevent Chrome transform bugs -->
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url('images/case-study-school.jpg'); background-size: cover; background-attachment: fixed; z-index: -2;">
+        </div>
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(240, 248, 255, 0.85); z-index: -1;">
+        </div>
+
+        <div class="container reveal">
+            <div class="text-center mb-4 reveal" style="transition-delay: 0.4s;">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">FEATURES</span>
+                <h2 class="display-5 fw-bold text-dark mb-3 lh-base">What makes our HMS stand out from <span
+                        class="text-primary">the rest?</span></h2>
+                <p class="fs-6 text-muted mb-0">Streamline hospital workflows, enhance patient care, and improve operational efficiency seamlessly.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Row 1 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.1s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-user-friends fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">User-Friendly Interface</h6>
+                        <p class="small text-white opacity-75 mb-0">Intuitive and easy-to-use hospital software designed for healthcare professionals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.2s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-stream fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Streamlined Processes</h6>
+                        <p class="small text-dark opacity-75 mb-0">Optimized workflows for efficient hospital operations and patient management.</p>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.3s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-sync fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Synergized Activities</h6>
+                        <p class="small text-white opacity-75 mb-0">Integrated systems ensuring coordinated healthcare delivery across departments.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.5s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-shield-alt fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Data Privacy</h6>
+                        <p class="small text-dark opacity-75 mb-0">Robust security measures to protect sensitive patient information and medical records.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.6s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-clock fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Phased Implementation</h6>
+                        <p class="small text-white opacity-75 mb-0">Gradual migration process ensuring minimal disruption to hospital operations.</p>
+                    </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.7s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-cogs fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">End-to-End Processes</h6>
+                        <p class="small text-dark opacity-75 mb-0">Comprehensive coverage of all hospital administration and management functions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.8s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-headset fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">24/7 Support</h6>
+                        <p class="small text-white opacity-75 mb-0">Dedicated technical support available around the clock for uninterrupted service.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.9s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-file-medical fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Quick Record Retrieval</h6>
+                        <p class="small text-dark opacity-75 mb-0">Fast and easy access to medical records and patient information when needed.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 1.0s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-chart-bar fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Custom Reports</h6>
+                        <p class="small text-white opacity-75 mb-0">Generate standard and customizable reports for data-driven decision making.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-light position-relative z-1">
+        <div class="testimonial-gradient-bg"></div>
+        <div class="testimonial-floating-bg">
+            <div class="test-floating-shape test-floating-circle" style="top: 20%; left: 12%; animation-delay: 0s;"></div>
+            <div class="test-floating-shape test-floating-blob" style="top: 75%; right: 10%; width: 90px; height: 90px; animation-delay: 1.4s;"></div>
+            <div class="test-floating-shape test-floating-circle" style="top: 50%; left: 70%; animation-delay: 2.2s;"></div>
+            <div class="test-floating-shape test-floating-blob" style="bottom: 10%; left: 20%; width: 75px; height: 75px; animation-delay: 3s;"></div>
+        </div>
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">SUCCESS STORIES</span>
+                <h2 class="section-title display-6 fw-bold text-dark mb-3">Trusted by Nonprofits & NGOs</h2>
+                <p class="text-muted mx-auto fs-5 reveal delay-100" style="max-width: 700px;">Discover what nonprofit leaders and finance managers have to say about transforming their accounting operations with Acme.erp.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Left Column: Testimonial Cards -->
+                <div class="col-lg-6">
+                    <div class="testimonial-cards-container">
+                        <!-- Testimonial Card 1 -->
+                        <div class="testimonial-card mb-4 reveal">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">"MedSysB has transformed our workflow with its simple, user-friendly system. Their team was supportive, patient, and ensured smooth implementation from day one. We also extend our special thanks to BoscoSoft Technologies for their continuous support and commitment.</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Dr. Sr. Regina</h6>
+                                    <small class="text-muted">Presentation Health Centre, Tamil Nadu</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 2 -->
+                        <div class="testimonial-card mb-4 reveal delay-200">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“We are highly satisfied with the overall performance, features, and support services provided. Their professionalism and responsiveness to feedback have been excellent.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Dr. Sr. Susheela</h6>
+                                    <small class="text-muted">Director, Vijay Marie Hospital, Telangana</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 3 -->
+                        <div class="testimonial-card mb-4 reveal delay-400">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“Thank you very much for installing the Medsysb software. It has been extremely helpful for managing the entire pharmacy department, as well as registration, billing, and lab operations. With this software, I can systematically oversee and control all departments effectively.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">St. Joseph’s Hospital</h6>
+                                    <small class="text-muted">Kadiyapattinam, Tamil Nadu </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 4 -->
+                        <div class="testimonial-card reveal delay-600">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“We are grateful to the team for installing the software for IP registration, lab billing and investigations, OT, and dietary management in our hospital. We find it both satisfactory and highly beneficial.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">
+St. Joseph of Cluny Hospital</h6>
+                                    <small class="text-muted">Chennai, Tamil Nadu</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Card 5 -->
+                          <div class="testimonial-card reveal delay-600">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“With deep appreciation, I would like to inform you that the installation of the Hospital Management Software at Pushpa Hospital has been successfully completed, thanks to the tireless dedication and hard work of the Medsysb team. Congratulations to the team on a job well done.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Pushpa Hospital</h6>
+                                    <small class="text-muted">Dalli Rajhara, Chhattisgarh </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Single Image -->
+                <div class="col-lg-6">
+                    <div class="testimonial-image-container reveal delay-300">
+                        <div class="testimonial-main-image">
+                            <img src="images/medsysb/case-study-hospital.jpg" alt="Healthcare Management System" class="img-fluid rounded-3 shadow-lg">
+                            <div class="testimonial-image-overlay">
+                                <div class="testimonial-image-badge">
+                                    <i class="fas fa-hospital-user text-white me-2"></i>
+                                    <span class="text-white fw-bold">Healthcare Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Marquee -->
+    <section class="py-5 bg-white overflow-hidden border-top">
+        <div class="container">
+            <div class="text-center mb-4 reveal">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">OUR VALUABLE CLIENTS</span>
+            </div>
+            <div class="partners-marquee-container">
+                <div class="partners-marquee-track">
+                    <div class="partner-item"><img src="images/medsysb/client01.avif" alt="Don Bosco School"></div>
+                    <div class="partner-item"><img src="images/medsysb/client02.avif" alt="St. Bedes Academy"></div>
+                    <div class="partner-item"><img src="images/medsysb/client03.avif" alt="Auxilium School"></div>
+                    <div class="partner-item"><img src="images/medsysb/client04.avif" alt="Holy Angels’ Public School"></div>
+                    <div class="partner-item"><img src="images/medsysb/client05.avif" alt="Cluny Matriculation"></div>
+                    <div class="partner-item"><img src="images/medsysb/client06.avif" alt="St. Paul's School"></div>
+                    <!-- Duplicate for continuous scrolling -->
+                    <div class="partner-item"><img src="images/medsysb/client07.avif" alt="Don Bosco School"></div>
+                    <div class="partner-item"><img src="images/medsysb/client08.avif" alt="St. Bedes Academy"></div>
+                    <div class="partner-item"><img src="images/medsysb/client09.avif" alt="Auxilium School"></div>
+                    <div class="partner-item"><img src="images/medsysb/client10.avif" alt="Holy Angels’ Public School"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding position-relative overflow-hidden border-top">
+        <div class="faq-gradient-bg"></div>
+        <div class="faq-grid-overlay"></div>
+        <div class="container position-relative z-1">
+            <div class="row gx-5">
+                 <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="sticky-top" style="top: 120px;">
+                        <div class="text-start reveal reveal-left">
+                            <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                                style="letter-spacing: 2px; font-size: 0.85rem;">FAQ</span>
+                            <h2 class="section-title display-6 fw-bold text-dark mb-3">Common questions
+                                about<br>MedSysB</h2>
+                            <p class="text-muted pe-md-4 fs-5 reveal delay-100">Find answers to common questions about
+                               MedSysB implementation and features. Discover how MedSysB can transform your
+                                hospital workflows securely and efficiently.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="accordion" id="sspFaq">
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-100">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button bg-transparent fw-bold text-dark px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    What is MedSysB Hospital Management Software?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    MedSysB hospital management software (HMS), is a comprehensive hospital management solution designed to manage and workflow various hospital operations and processes covering patients, doctors, bills, lab tests, hospital inventory, blood bank, dietary and medical records with configurable activity-mapping and roles &amp; rights mapping for each user of the system. Ease-of-use and intuitive-use are basic design principles of this software.
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-200">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    What are the key benefits of MedSysB hospital management software?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Benefits include improved patient care, enhanced efficiency, better data management, streamlined workflows, reduced administrative costs and compliance with healthcare regulations.
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    What are some additional benefits of MedSysB software?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    <ul>
+                                        <li><strong>Flexible for all healthcare setups:</strong> Suitable for small and medium-scale facilities, with customized departmental and activity mapping; supports both centralized and decentralized billing systems.</li>
+                                        <li><strong>User-friendly:</strong> Features multiple links within a single registration page (New, Renew, & Revisit), multi-departmental access and shortcut keys for ease of use.</li>
+                                        <li><strong>Reduced patient waiting time:</strong> Enables easy patient searches, quick registration and bill preparation in seconds.</li>
+                                        <li><strong>Advanced search options:</strong> Allows searching by patient name, payment details, bed occupancy and admission/discharge details.</li>
+                                        <li><strong>Simple configuration:</strong> The application only needs to be installed on the server; users can access it through a URL and they can manage the build independently.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Is this software customizable?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Yes, it is highly customizable to meet the specific needs of the hospital, including fee structures, lab tests, Management Information System (MIS) reports, medical certificates and case sheets with the least disruption to the live system.
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    How secure is the patient data?
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Patient data is secured with encryption and pass-key protection. Biometrics and end-point protection is in the roadmap of the product.
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Get Started Section -->
+    <section class="app-download-section" style="overflow: visible;">
+        <div class="container reveal position-relative" style="z-index: 2;">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center text-lg-start position-relative">
+                    <!-- Accounting Software Illustration -->
+                    <img src="images/healthcare-portal.jpg" alt="Acme.erp Accounting Software" class="demo-illustration acme-demo-illustration rounded-4">
+                </div>
+                <div class="col-lg-7 offset-lg-0">
+                    <h2 class="display-5 app-download-title mb-4 reveal">Experience MedSysB</h2>
+                    <p class="fs-5 text-muted mb-5 pe-lg-5 reveal delay-100">Discover how MedSysB can transform your hospital operations. Schedule a personalized demo to see our integrated healthcare management system in action and explore how it can enhance patient care and operational efficiency.</p>
+
+                    <div class="d-flex flex-wrap gap-3 reveal delay-200">
+                        <a href="https://medsysb.com/free-demo.php" target="_blank" class="btn btn-primary btn-lg rounded-pill px-5">
+                            <i class="fas fa-calendar-check me-2"></i>Request Demo
+                        </a>
+                        <a href="https://medsysb.com/" target="_blank" class="btn btn-outline-primary btn-lg rounded-pill px-5">
+                            <i class="fas fa-globe me-2"></i>Visit Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Get In Touch Section (Spans 2 logical columns) -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h5 class="footer-heading">Get In Touch</h5>
+                    <div class="footer-underline"></div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <h6 class="footer-subheading">Registered Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies Pvt. Ltd.<br>
+                                No. 231/77, S.H.C Complex,<br>
+                                Vaniyambadi Road,<br>
+                                Tirupattur District,<br>
+                                TN 635 601 INDIA.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-phone-alt"></i> +91 9626 800 800
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> binfo@boscosofttech.com
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="footer-subheading">Middle East Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies FZE<br>
+                                BC4, Business Park RAK Free<br>
+                                Trade Zone, Ras Al Khaimah,<br>
+                                UAE.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-mobile-alt"></i> +971 058 860 1821
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> info@boscosoft.ae
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-globe"></i> www.boscosoft.ae
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">About Us</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#career">Career</a></li>
+                        <li><a href="index.html#signup">Sign up</a></li>
+                        <li><a href="index.html#training">Training</a></li>
+                        <li><a href="index.html#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Solutions -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Solutions</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="acme-erp.html">Acme.erp</a></li>
+                        <li><a href="smart-school-plus.html">SmartSchoolPlus</a></li>
+                        <li><a href="higrade.html">HiGrade</a></li>
+                        <li><a href="medsysb.html">MedSysB</a></li>
+                        <li><a href="cristo.html">CristO</a></li>
+                        <li><a href="microfund.html">MicroFUND</a></li>
+                        <li><a href="eaudithub.html">eAUDiTHub</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-heading">Services</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="app-modernization.html">App Modernization</a></li>
+                        <li><a href="bespoke-solutions.html">Bespoke Solution</a></li>
+                        <li><a href="index.html#gen-ai">Gen AI Systems</a></li>
+                        <li><a href="erp-customization.html">ERP Customization</a></li>
+                        <li><a href="staff-augmentation.html">Staff Augmentation</a></li>
+                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a href="index.html#academy">Bosco Academy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="copyright-text">&copy; 2026 <span class="text-teal"></span>Bosco Soft Technologies
+                            Pvt. Ltd.</span> All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-policy-links">
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Refund Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Mobile CTA Bar -->
+    <div class="mobile-cta-bar">
+        <a href="tel:+914443585002" class="btn btn-primary">
+            <i class="fas fa-phone-alt me-2"></i> Call Us
+        </a>
+        <a href="https://wa.me/919444000000" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp me-2"></i> WhatsApp
+        </a>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/solution-page.js"></script>
+    
+    <!-- Immediate reveal fallback -->
+    <script>
+        (function() {
+            function revealAll() {
+                document.querySelectorAll('[class*="reveal"]').forEach(el => {
+                    el.classList.add('active');
+                });
+            }
+            
+            // Immediate reveal
+            revealAll();
+            
+            // Re-run after each paint
+            setTimeout(revealAll, 100);
+            setTimeout(revealAll, 300);
+            setTimeout(revealAll, 500);
+            
+            // Periodic check
+            setInterval(revealAll, 1000);
+        })();
+    </script>
+</body>
+
+</html>
+

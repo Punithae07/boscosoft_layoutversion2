@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/@coreui/coreui@2.1.16/dist/css/coreui.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" rel="stylesheet" />
+    <title>@yield('title', 'AiCSA 2026 AI as your Creative & Expert Partner')</title>
+
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="32x32" href="css/fav-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="css/fav-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="css/fav-icon.png">
+</head>
+
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <div class="header-bg">
+                <img class="img-fluid" src="{{ asset('img/bg.jpg') }}">
+                <h2>AiCSA 2026 </h2>
+                <h3>AI as your Creative & Expert Partner</h3>
+                <p class="tittle-address">Bosco Soft Technologies Pvt. Ltd., Don Bosco Center,
+Guezou Nagar, Yelagiri Hills, Tirupattur Dt, Tamil Nadu – 635853.</p>
+            </div>
+            <div class="main">
+                <div class="container">
+                    <div class="card-body">
+                        <form method="POST" action="{{ route('acsr.store') }}" enctype="multipart/form-data">
+                            <h2>Registration</h2>
+                            @csrf
+                            <div class="form-row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <label for="name" class="col-form-label">Full Name
+                                                <span>*</span></label>
+                                            <input class="form-control" type="text" name="name" id="name"
+                                                placeholder="Name" required>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <label for="industry" class="col-form-label">Prefix
+                                                <span>*</span></label>
+                                            <select name="prefix" id="prefix" required class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="Fr.">Fr.</option>
+                                                <option value="Sr.">Sr.</option>
+                                                <option value="Br.">Br.</option>
+                                                <option value="Mr/Ms.">Mr/Ms.</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <label for="mail" class="col-form-label">Mail ID <span>*</span></label>
+                                            <input class="form-control" type="email" name="email" required
+                                                id="email" placeholder="Mail ID">
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label for="dob" class="col-form-label">Date Of Birth
+                                                    <span>*</span></label>
+                                                <input type="date" id="dob" class="form-control"
+                                                    max="<?= date('Y-m-d') ?>" required placeholder="Date of Birth"
+                                                    name="dob">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <label for="mobile_number" class="col-form-label">Mobile
+                                                Number<span>*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        +91
+                                                    </span>
+                                                </div>
+                                                <input class="form-control" type="text" required name="mobile_number"
+                                                    id="mobile_number" placeholder="Mobile Number">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <label for="mobile_number" class="col-form-label">What's app Number
+                                                <span>*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        +91
+                                                    </span>
+                                                </div>
+                                                <input class="form-control" type="text" required
+                                                    name="whatsapp_number" id="whatsapp_number"
+                                                    placeholder="What's app Number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <label for="mail" class="col-form-label">Address
+                                                <span>*</span></label>
+                                            <textarea class="form-control" type="text" name="address" required id="address" placeholder="Address"></textarea>
+                                        </div>
+
+                                        <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <label for="industry" class="col-form-label">Select Course
+                                                <span>*</span></label>
+                                            <select name="course" id="course" required class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="AI for Office Automation">AI for Office Automation</option>
+                                                <option value="AI for Graphics & Video Creation">AI for Graphics & Video Creation</option>
+                                            </select>
+                                        </div> -->
+                                        <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
+                                        <!--    <label for="course" class="col-form-label">Select Course <span>*</span></label>-->
+                                        <!--    <select name="course" id="course" required class="form-control">-->
+                                        <!--        <option value="">Select</option>-->
+                                        <!--        <option value="AI for Office Automation">AI for Office Automation</option>-->
+                                        <!--        <option value="AI for Graphics & Video Creation">AI for Graphics & Video Creation</option>-->
+                                        <!--    </select>-->
+                                        <!--</div>-->
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <label for="batch" class="col-form-label">Select Batch <span>*</span></label>
+                                            <select name="batch" id="batch" required class="form-control">
+                                                <option value="Batch 1">Batch 1 (17 to 19 April, 2026)</option>
+                                                <option value="Batch 2">Batch 2(8 to 10 May, 2026)</option>
+                                                <option value="Batch 3">Batch 3(15 to 17 May, 2026)</option>
+                                                <option value="Batch 4">Batch 4(22 to 24 May, 2026)</option>
+                                            </select>
+                                        </div>
+                                        
+                                        
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                                            <label for="industry" class="col-form-label">Select Batch
+                                                <span>*</span></label>
+                                            <select name="batch" id="batch" required class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="Batch 1">Batch 1 (4<sub>th</sub> April to 6<sub>th</sub> April)</option>
+                                                <option value="Batch 2">Batch 2(9th May to 11th May)</option>
+                                                <option value="Batch 3">Batch 3(16th May to 18th May)</option>
+                                                <option value="Batch 4">Batch 4(22nd May to 24th May)</option>
+                                            </select>
+                                        </div> -->
+
+                                        
+
+
+                                        <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
+                                        <!--    <label for="industry" class="col-form-label">Select Location-->
+                                        <!--        <span>*</span></label>-->
+                                        <!--    <select name="location" id="location" required class="form-control">-->
+                                        <!--        <option value="Yelagiri">Yelagiri</option>-->
+                                                <!--<option value="Chennai">Chennai</option>-->
+                                        <!--    </select>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label for="industry"
+                                                class="col-form-label register-fee"><strong>Registration Fee</strong>
+                                                <span>*</span>: Rs. 6,000</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label class="col-form-label">Payment Type <span>*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="some-class mb-2">
+                                                <input type="radio" class="radio" name="payment_type" required
+                                                    value="Bank Transfer" id="bank_transfer" />
+                                                <label for="bank_transfer" class="col-form-label b_transfer">Bank
+                                                    Transfer</label>
+                                            </div>
+                                            <div id="bank_transfer_div" style="display: none; padding-top: 15px;">
+                                                <div class="some-class">
+                                                    <label class="col-form-label"><em>( Bank
+                                                            Account Details for NEFT / RTGS )</em></label>
+                                                    <div style="overflow-x:auto;">
+                                                        <table>
+                                                            <tr>
+                                                                <th>A/C Name</th>
+                                                                <td>BICS INFOTECH EDUCATIONAL TRUST</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>A/C Number</th>
+                                                                <td>11358846444</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Bank Name</th>
+                                                                <td>State Bank of India</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Branch Name</th>
+                                                                <td>Athanavur, Yelagiri Hills</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>IFSC Code</th>
+                                                                <td>SBIN0006711</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group mt-3">
+                                                    <label for="bank_transaction_date" class="col-form-label">Transaction Date
+                                                        <span>*</span></label>
+                                                    <input type="date" id="bank_transaction_date"
+                                                        class="form-control date" max="<?= date('Y-m-d') ?>"
+                                                        placeholder="Transaction Date" name="transaction_date" disabled>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="bank_transaction_number" class="col-form-label">Transaction
+                                                        Number
+                                                        <span>*</span></label>
+                                                    <div class="input-group">
+                                                        <input class="form-control" type="text" id="bank_transaction_number"
+                                                            name="transaction_number"
+                                                            placeholder="Transaction Number" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="some-class mb-2">
+                                                <input type="radio" class="radio" name="payment_type" required
+                                                    value="UPI Payment" id="upi_payment" />
+                                                <label for="upi_payment" class="col-form-label">UPI Payment</label>
+                                            </div>
+                                            <div id="upi_payment_div" style="display: none; padding-top: 15px;">
+                                                <div class="some-class">
+                                                    <label class="col-form-label">UPI
+                                                        Scanner</label><br>
+                                                    <a href="{{ asset('img/qrcodebosco.png') }}"><img class="scanner"
+                                                            src="{{ asset('img/qrcodebosco.png') }}"></a>
+                                                </div>
+                                                <div class="form-group mt-3">
+                                                    <label for="upi_transaction_date" class="col-form-label">Transaction Date
+                                                        <span>*</span></label>
+                                                    <input type="date" id="upi_transaction_date"
+                                                        class="form-control date" max="<?= date('Y-m-d') ?>"
+                                                        placeholder="Transaction Date" name="transaction_date" disabled>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="upi_transaction_number" class="col-form-label">Transaction
+                                                        Number
+                                                        <span>*</span></label>
+                                                    <div class="input-group">
+                                                        <input class="form-control" type="text" id="upi_transaction_number"
+                                                            name="transaction_number"
+                                                            placeholder="Transaction Number" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <p>&nbsp;</p>
+                                    <div class="form-group row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-hidden"></div>
+
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                                            <input type="submit" value="Register" id="Register"
+                                                class="btn btn-danger btn-block">
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-hidden"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <!-- end of Mechanical Assessment  -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $('input[name="payment_type"]').change(function() {
+        if ($("#bank_transfer").is(':checked')) {
+            $('#bank_transfer_div').show();
+            $('#bank_transaction_date').prop('disabled', false).prop('required', true);
+            $('#bank_transaction_number').prop('disabled', false).prop('required', true);
+
+            $('#upi_payment_div').hide();
+            $('#upi_transaction_date').prop('disabled', true).prop('required', false);
+            $('#upi_transaction_number').prop('disabled', true).prop('required', false);
+        }
+        if ($("#upi_payment").is(':checked')) {
+            $('#upi_payment_div').show();
+            $('#upi_transaction_date').prop('disabled', false).prop('required', true);
+            $('#upi_transaction_number').prop('disabled', false).prop('required', true);
+
+            $('#bank_transfer_div').hide();
+            $('#bank_transaction_date').prop('disabled', true).prop('required', false);
+            $('#bank_transaction_number').prop('disabled', true).prop('required', false);
+        }
+    });
+
+    // $(document).ready(function () {
+    //     // alert('in');
+    //         // Define batch options based on course selection
+    //         const batchOptions = {
+    //             "AI for Office Automation": [
+    //                 { value: "Batch 1", text: "Batch 1 (4th April to 6th April)" },
+    //                 { value: "Batch 3", text: "Batch 3 (16th May to 18th May)" }
+    //             ],
+    //             "AI for Graphics & Video Creation": [
+    //                 // { value: "Batch 1", text: "Batch 1 (4th April to 6th April)" },
+    //                 { value: "Batch 2", text: "Batch 2 (9th May to 11th May)" },
+    //                 // { value: "Batch 3", text: "Batch 3 (16th May to 18th May)" },
+    //                 { value: "Batch 4", text: "Batch 4 (22nd May to 24th May)" }
+    //             ]
+    //         };
+
+    //         // On course selection, update batch options
+    //         $("#course").change(function () {
+    //             var selectedCourse = $(this).val();
+    //             var batchDropdown = $("#batch");
+
+    //             // Clear previous options
+    //             batchDropdown.empty();
+    //             batchDropdown.append('<option value="">Select</option>');
+
+    //             // If a valid course is selected, load its batch options
+    //             if (batchOptions[selectedCourse]) {
+    //                 batchOptions[selectedCourse].forEach(function (batch) {
+    //                     batchDropdown.append(`<option value="${batch.value}">${batch.text}</option>`);
+    //                 });
+    //             }
+    //         });
+    //     });
+
+    $(document).ready(function () {
+        // Optional: If you want to automatically select the first batch
+        $('#batch').val(''); // Default placeholder
+
+        // Optional: Alert on selection
+        $('#batch').change(function () {
+            var selectedBatch = $(this).val();
+            if(selectedBatch !== "") {
+                alert("You selected: " + selectedBatch);
+            }
+        });
+    });
+
+
+    
+</script>
+
+</html>

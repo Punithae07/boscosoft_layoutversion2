@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eAUDiTHub - Advanced Digital Audit & Compliance Management Software. Streamline hygiene audits, compliance checks, and audit procedures for hospitality and food safety industries.">
+    <meta name="keywords" content="Audit Software, Digital Audit, Compliance Management, Hygiene Audit, Food Safety Audit, eAUDiTHub, Audit Checklist">
+    <meta name="author" content="BoscoSoft Technologies">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.boscosofttech.com/eaudithub.html">
+    <meta property="og:title" content="eAUDiTHub | Digital Audit & Compliance Management Software | BoscoSoftTech">
+    <meta property="og:description" content="Next-generation audit solution with mobile accessibility, real-time reporting, and compliance alignment with HACCP, FSSAI, and ISO 22000 standards.">
+    <meta property="og:image" content="https://www.boscosofttech.com/images/solutions/eaudithub-hero.svg">
+
+    <link rel="canonical" href="https://www.boscosofttech.com/eaudithub.html">
+    <title>eAUDiTHub | Digital Audit & Compliance Management | BoscoSoftTech</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/bosco-logo.png" alt="BoscoSoft Technologies Logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="d-flex justify-content-end d-lg-none p-3">
+                    <button class="btn-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-label="Close"></button>
+                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item py-2 px-4" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="mission.html">Mission & Vision</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Solutions Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Solutions</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Solutions</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-4 text-white-50">
+                                            Enterprise-grade software designed for schools, hospitals, and NGOs.
+                                        </p>
+                                        <a href="index.html#portfolio"
+                                            class="btn btn-outline-light btn-sm rounded-pill px-4">View
+                                            All Products</a>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Enterprise Solutions</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="acme-erp.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-chart-line"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Acme.erp</span>
+                                                        <span class="mega-menu-desc">NGO Financial Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="smart-school-plus.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">SmartSchool+</span>
+                                                        <span class="mega-menu-desc">School Management ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="higrade.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-university"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">HiGrade</span>
+                                                        <span class="mega-menu-desc">Higher Education ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="medsysb.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-hospital-user"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MedSysB</span>
+                                                        <span class="mega-menu-desc">Hospital Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="cristo.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-church"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">CristO</span>
+                                                        <span class="mega-menu-desc">Religious Resource Planning</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="microfund.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-coins"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MicroFUND</span>
+                                                        <span class="mega-menu-desc">Microfinance Solutions</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="eaudithub.html" class="mega-menu-item dropdown-item active">
+                                                    <div class="mega-menu-icon"><i class="fas fa-clipboard-check"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">eAUDiTHub</span>
+                                                        <span class="mega-menu-desc">Digital Audit & Compliance</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center">
+                                        <div class="mega-menu-promo text-center">
+                                            <img src="images/banking-system.jpg" alt="Special Offer"
+                                                class="mega-menu-promo-img img-fluid" loading="lazy">
+                                            <h6 class="fw-bold mb-2">New: AI Copilot</h6>
+                                            <p class="small text-muted mb-3">Transform your administration with our
+                                                latest AI analytical tools.</p>
+                                            <a href="index.html#contact"
+                                                class="btn btn-primary btn-sm rounded-pill">Explore
+                                                Beta</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Services Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Services</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-0 text-white-50">
+                                            Comprehensive software services and bespoke solutions tailored for the
+                                            modern digital era.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Expertise & Services</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="app-modernization.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-sync-alt"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">App Modernization</span>
+                                                        <span class="mega-menu-desc">Legacy to Cloud Transition</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="bespoke-solutions.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-tools"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bespoke Solution</span>
+                                                        <span class="mega-menu-desc">Tailored Software Design</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#gen-ai" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-robot"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Gen AI Systems</span>
+                                                        <span class="mega-menu-desc">AI-Driven Business Logic</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="erp-customization.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-cogs"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">ERP Customization</span>
+                                                        <span class="mega-menu-desc">Specialized Module Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="staff-augmentation.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-users-cog"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Staff Augmentation</span>
+                                                        <span class="mega-menu-desc">Expert On-Demand Talent</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#academy" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bosco Academy</span>
+                                                        <span class="mega-menu-desc">Professional Skill Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center text-center">
+                                        <div class="mega-menu-promo">
+                                            <i class="fas fa-lightbulb text-primary fs-1 mb-3"></i>
+                                            <h6 class="fw-bold mb-2">Need a Custom Quote?</h6>
+                                            <p class="small text-muted mb-3">Our experts are ready to help you define
+                                                your technical roadmap.</p>
+                                            <a href="index.html#contact" class="btn btn-primary btn-sm">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#career">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-primary rounded-pill px-4" href="#contact">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Acme.erp Hero Section -->
+    <div class="acme-hero-wrapper">
+        <section class="acme-hero-section solution-hero-eaudithub section-padding pt-5">
+            <div class="container">
+                <!-- Breadcrumbs -->
+                <nav aria-label="breadcrumb" class="mb-5">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.html#portfolio">Solutions</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">eAUDiTHub</li>
+                    </ol>
+                </nav>
+                <div class="row align-items-center">
+                    <div class="col-lg-12 hero-text-col text-center">
+                        <span class="acme-hero-tag mb-3 d-inline-block">DIGITAL AUDIT & COMPLIANCE</span>
+                        <h1 class="acme-hero-title mb-4">
+                            Unveiling Next-Gen <span>Auditing</span>
+                        </h1>
+                        <p class="acme-hero-desc mb-5">
+                            eAUDiTHub revolutionizes audit procedures with digital-first compliance management. From restaurant hygiene to food safety certifications (HACCP, FSSAI, ISO 22000), our mobile-first platform streamlines audit workflows, enables real-time reporting, and ensures consistent compliance across all facilities. Process rationalization meets operational excellence.
+                        </p>
+                        <div class="acme-hero-btns d-flex flex-wrap gap-3 justify-content-center">
+                            <a href="https://www.eaudithub.com/" class="btn btn-primary btn-lg rounded-pill px-4">Request Demo</a>
+                            <a href="https://www.eaudithub.com/" target="_blank"
+                                class="btn btn-outline-primary btn-lg rounded-pill px-4">Explore Website</a>
+                        </div>
+                        <div class="acme-stats-card mt-5">
+                            <div class="hero-trust-stats d-flex flex-wrap gap-4 justify-content-center w-100">
+                                <div class="stat-item">
+                                    <h4 class="mb-0 fw-bold">10+</h4>
+                                    <p class="small text-light mb-0">Projects</p>
+                                </div>
+                                <div class="stat-item border-start border-light border-opacity-25 ps-sm-4 text-start">
+                                    <h4 class="mb-0 fw-bold">7+</h4>
+                                    <p class="small text-light mb-0">Clients</p>
+                                </div>
+                                <div class="stat-item border-start border-light border-opacity-25 ps-sm-4 text-start">
+                                    <h4 class="mb-0 fw-bold">5+</h4>
+                                    <p class="small text-light mb-0">Experts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Manual-Scroll Modules Section -->
+    <section id="modules" class="section-padding bg-pattern-circuit overflow-hidden pb-5">
+
+        <div class="container reveal mb-5 text-center">
+            <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                style="letter-spacing: 2px; font-size: 0.85rem;">CORE MODULES</span>
+            <h2 class="section-title display-6 fw-bold text-dark mb-3">Digital Audit & Compliance Management</h2>
+            <p class="text-muted mx-auto fs-5 reveal delay-100" style="max-width: 700px;">Explore eAUDiTHub’s audit and compliance capabilities for policy control, scheduling, reporting, comparison, follow-up, and standards-driven execution.</p>
+        </div>
+
+        <div class="container position-relative">
+            <div class="modules-scroll-container pb-4" id="modulesScrollContainer">
+                <div class="modules-scroll-track reveal delay-200" id="modulesScrollTrack">
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="module-new-title">Create and Customize</div>
+                        <div class="module-new-desc">Develop policies, quality manuals, SOPs, configurable checklists, guidelines, and reusable templates aligned to your audit program.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                        <div class="module-new-title">Schedule and Audit</div>
+                        <div class="module-new-desc">Plan audit schedules in advance, define scope and responsibilities, and reduce last-minute operational stress with structured preparation.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                        <div class="module-new-title">Operational Oversight</div>
+                        <div class="module-new-desc">Centralize communication between committees, reduce redundancy, and maintain consistent oversight across audit operations.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-piggy-bank"></i></div>
+                        <div class="module-new-title">Measure and Manage</div>
+                        <div class="module-new-desc">Run broader risk assessments, evaluate controls, prioritize issues, and use structured metrics to guide action.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-poll"></i></div>
+                        <div class="module-new-title">Complaint Rate</div>
+                        <div class="module-new-desc">Track complaint-related audit indicators and monitor how issues surface across operational environments.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-users-cog"></i></div>
+                        <div class="module-new-title">Easy Follow-up</div>
+                        <div class="module-new-desc">Turn findings into action with follow-up visibility, notifications, and structured tracking of corrective measures.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="module-new-title">Customization on the Fly</div>
+                        <div class="module-new-desc">Adapt checklists, facility settings, and skills or quality workflows to match your business and compliance context.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-project-diagram"></i></div>
+                        <div class="module-new-title">Chargesheet</div>
+                        <div class="module-new-desc">Record detailed observations and issue-based audit information in a structured, accountable format.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-wallet"></i></div>
+                        <div class="module-new-title">Workflow Management</div>
+                        <div class="module-new-desc">Support end-to-end audit execution from planning through findings, follow-up, and results with coordinated workflow control.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-receipt"></i></div>
+                        <div class="module-new-title">Solution as a Platform</div>
+                        <div class="module-new-desc">Use one platform for desktop, internal, and mobile audits so staff and management work from a centralized environment.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-history"></i></div>
+                        <div class="module-new-title">Automated Reporting</div>
+                        <div class="module-new-desc">Capture audit observations digitally and generate reports proactively for faster reviews and timely response.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-copy"></i></div>
+                        <div class="module-new-title">Audit Comparison</div>
+                        <div class="module-new-desc">Compare audits across time to identify trends, understand changes, and make informed decisions using historical metrics.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="module-new-title">Cloud & Mobile Audits</div>
+                        <div class="module-new-desc">Access audit data securely in the cloud and conduct on-site audits directly from Android devices with photo evidence.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-exchange-alt"></i></div>
+                        <div class="module-new-title">Evidence Management</div>
+                        <div class="module-new-desc">Organize documents, records, and audit artifacts for easier access, review, and compliance follow-through.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-tools"></i></div>
+                        <div class="module-new-title">Predictive Analytics Support</div>
+                        <div class="module-new-desc">Leverage real-time dashboards and analytical signals to prioritize improvements and strengthen compliance decisions.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls (Bottom row) -->
+            <div class="d-flex justify-content-between align-items-center mt-4 modules-nav-row">
+                <a href="https://www.eaudithub.com/" target="_blank" class="btn btn-primary rounded-pill px-4 py-2">View all services <i class="fas fa-chevron-right ms-2 fs-6"></i></a>
+
+                <div class="modules-pagination d-flex gap-2" id="modulesPagination">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="modules-arrows d-flex gap-2">
+                    <button type="button" class="btn slider-btn-oval shadow-sm" id="btnScrollLeft"><i class="fas fa-chevron-left"></i></button>
+                    <button type="button" class="btn slider-btn-oval shadow-sm" id="btnScrollRight"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Background Elements -->
+        <div class="floating-bg-elements">
+            <div class="floating-shape floating-circle" style="top: 15%; left: 10%; animation-delay: 0s;"></div>
+            <div class="floating-shape floating-circle" style="top: 40%; right: 15%; animation-delay: 2s;"></div>
+            <div class="floating-shape floating-square" style="bottom: 25%; left: 25%; animation-delay: 4s;"></div>
+            <div class="floating-shape floating-circle" style="top: 60%; right: 25%; animation-delay: 1s;"></div>
+            <div class="floating-shape floating-square" style="bottom: 10%; right: 10%; animation-delay: 3s;"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-padding text-dark position-relative">
+        <!-- Parallax Light Overlay isolated to prevent Chrome transform bugs -->
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url('images/case-study-school.jpg'); background-size: cover; background-attachment: fixed; z-index: -2;">
+        </div>
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(240, 248, 255, 0.85); z-index: -1;">
+        </div>
+
+        <div class="container reveal">
+            <div class="text-center mb-4 reveal" style="transition-delay: 0.4s;">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">ADVANTAGES</span>
+                <h2 class="display-5 fw-bold text-dark mb-3 lh-base">Why eAUDiTHub is the Best Choice for <span
+                        class="text-primary">Modern Auditing?</span></h2>
+                <p class="fs-6 text-muted mb-0">Purpose-built for digital auditing with standards alignment, flexible deployment, automated reporting, and easier operational follow-through.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Row 1 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.1s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-heart fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Solution as a Platform</h6>
+                        <p class="small text-white opacity-75 mb-0">Use one audit environment across desktop, internal, and mobile workflows instead of scattered tools.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.2s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-check-double fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Global Standards Alignment</h6>
+                        <p class="small text-dark opacity-75 mb-0">Built to support audit programs that work against standards such as HACCP, FSSAI, and ISO 22000.</p>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.3s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-gift fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Pay as per Usage</h6>
+                        <p class="small text-white opacity-75 mb-0">Adopt a flexible commercial model that lets organizations pay according to actual usage levels.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.5s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-mobile-alt fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Cloud and Mobile Friendly</h6>
+                        <p class="small text-dark opacity-75 mb-0">Access audit data securely from anywhere and perform on-site inspections from Android devices with immediate review.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.6s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-chart-bar fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Automated Reporting</h6>
+                        <p class="small text-white opacity-75 mb-0">Generate detailed audit observations and reports proactively so teams can act faster on compliance gaps.</p>
+                    </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.7s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-shield-alt fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Audit Comparison</h6>
+                        <p class="small text-dark opacity-75 mb-0">Compare results over time to identify trends, understand changes, and improve decisions with historical insight.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.8s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-sync-alt fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Unified Assurance</h6>
+                        <p class="small text-white opacity-75 mb-0">Streamline communication, evidence handling, collaboration, and corrective action in one audit workflow.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.9s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-users fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">User-Friendly Customization</h6>
+                        <p class="small text-dark opacity-75 mb-0">Tailor facilities, checklists, and skills management to your operational context without unnecessary complexity.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 1.0s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-headset fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Real-Time Analytics</h6>
+                        <p class="small text-white opacity-75 mb-0">Use dynamic reporting and dashboards to identify areas for improvement and make informed operational decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-light position-relative z-1">
+        <div class="testimonial-gradient-bg"></div>
+        <div class="testimonial-floating-bg">
+            <div class="test-floating-shape test-floating-circle" style="top: 20%; left: 12%; animation-delay: 0s;"></div>
+            <div class="test-floating-shape test-floating-blob" style="top: 75%; right: 10%; width: 90px; height: 90px; animation-delay: 1.4s;"></div>
+            <div class="test-floating-shape test-floating-circle" style="top: 50%; left: 70%; animation-delay: 2.2s;"></div>
+            <div class="test-floating-shape test-floating-blob" style="bottom: 10%; left: 20%; width: 75px; height: 75px; animation-delay: 3s;"></div>
+        </div>
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">SUCCESS STORIES</span>
+                <h2 class="section-title display-6 fw-bold text-dark mb-3">Trusted by Audit Professionals</h2>
+                <p class="text-muted mx-auto fs-5 reveal delay-100" style="max-width: 700px;">Discover what audit leaders and operators say about moving from manual processes to eAUDiTHub’s digital audit workflow.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Left Column: Testimonial Cards -->
+                <div class="col-lg-6">
+                    <div class="testimonial-cards-container">
+                        <div class="testimonial-card mb-4 reveal">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">"eAUDiTHub made our manual processes more efficient, and with automatic notifications, effective complaint management, and strong reporting, it has become our favorite software solution."</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Henry Kensington</h6>
+                                    <small class="text-muted">Operations and audit leader</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card mb-4 reveal delay-200">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">"Have loved eAUDiTHub since the beginning, and love it more each year I use it. It has allowed us to automate many functions that were manual before. Their support is exceptional."</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Zara Al Maktoum</h6>
+                                    <small class="text-muted">Compliance program user</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card mb-4 reveal delay-400">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">"When administration management is needed, eAUDiTHub is a solution with security, audit, and compliance features. There is data aggregation and work activity."</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Aarav Sharma</h6>
+                                    <small class="text-muted">Audit and compliance manager</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card mb-4 reveal delay-600">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">"eAUDiTHub seamlessly connects with other modules, making data flow smooth. The platform’s user-friendly design simplifies navigation."</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Alexander Mitchell</h6>
+                                    <small class="text-muted">Digital audit user</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Card 1 -->
+                        <div class="testimonial-card mb-4 reveal d-none">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“The Best ERP, that helped us to bring our accounts in braches under control”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Fr.Edwin Vasanth</h6>
+                                    <small class="text-muted">Economer, Salesians of Don Bosco, Chennai Province.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 2 -->
+                        <div class="testimonial-card mb-4 reveal delay-200 d-none">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“Acme.erp is one of the best accounting software, very easy and simple to use and get the desirable reports.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Sr.Bridgit Joseph</h6>
+                                    <small class="text-muted">Sisters of Charity Hyderabad, Provincial Treasurer.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 3 -->
+                        <div class="testimonial-card mb-4 reveal delay-400 d-none">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“I appreciate all of your help, enthusiasm, and attention to detail with your duties. This ERP is better off with you. We feel that the matters and details are sufficient under your direction.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Sr.Theresa</h6>
+                                    <small class="text-muted">SAT Mumbai, Provincial Teasurer.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 4 -->
+                        <div class="testimonial-card reveal delay-600 d-none">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“Acme.erp software helps all Institutions and organizations to make efficient use of their system.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Sr.T.Agnes</h6>
+                                    <small class="text-muted">SAT Trichy, Treasure.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Single Image -->
+                <div class="col-lg-6">
+                    <div class="testimonial-image-container reveal delay-300">
+                        <div class="testimonial-main-image">
+                            <img src="images/solutions/eaudithub-hero.svg" alt="Digital Audit & Compliance" class="img-fluid rounded-3 shadow-lg">
+                            <div class="testimonial-image-overlay">
+                                <div class="testimonial-image-badge">
+                                    <i class="fas fa-check-circle text-white me-2"></i>
+                                    <span class="text-white fw-bold">Audit Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Marquee -->
+    <section class="py-5 bg-white overflow-hidden border-top">
+        <div class="container">
+            <div class="text-center mb-4 reveal">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">OUR TRUSTED PARTNERS</span>
+            </div>
+            <div class="partners-marquee-container">
+                <div class="partners-marquee-track">
+                    <div class="partner-item"><img src="images/acemerp/client01.jpg" alt="Don Bosco School"></div>
+                    <div class="partner-item"><img src="images/acemerp/client02.jpg" alt="St. Bedes Academy"></div>
+                    <div class="partner-item"><img src="images/acemerp/client03.jpg" alt="Auxilium School"></div>
+                    <div class="partner-item"><img src="images/acemerp/client04.jpg" alt="Holy Angels’ Public School"></div>
+                    <div class="partner-item"><img src="images/acemerp/client05.jpg" alt="Cluny Matriculation"></div>
+                    <div class="partner-item"><img src="images/acemerp/client06.jpg" alt="St. Paul's School"></div>
+                    <!-- Duplicate for continuous scrolling -->
+                    <div class="partner-item"><img src="images/acemerp/testimonial01.jpg" alt="St. Paul's School"></div>
+                    <div class="partner-item"><img src="images/acemerp/testimonial02.jpg" alt="St. Paul's School"></div>
+                    <div class="partner-item"><img src="images/acemerp/testimonial03.jpg" alt="St. Paul's School"></div>
+                    <div class="partner-item"><img src="images/acemerp/testimonial04.jpg" alt="St. Paul's School"></div>
+                    <div class="partner-item"><img src="images/acemerp/testimonial05.jpg" alt="St. Paul's School"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding position-relative overflow-hidden border-top">
+        <div class="faq-gradient-bg"></div>
+        <div class="faq-grid-overlay"></div>
+        <div class="container position-relative z-1">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="sticky-top" style="top: 120px;">
+                        <div class="text-start reveal reveal-left">
+                            <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                                style="letter-spacing: 2px; font-size: 0.85rem;">FAQ</span>
+                            <h2 class="section-title display-6 fw-bold text-dark mb-3">Common questions
+                                about<br>eAUDiTHub</h2>
+                            <p class="text-muted pe-md-4 fs-5 reveal delay-100">Find answers to common questions about
+                                eAUDiTHub implementation and features. Discover how it supports cloud, mobile, paperless, and analytics-driven audit operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="accordion" id="sspFaq">
+                        <div class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-100">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button bg-transparent fw-bold text-dark px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Is eAUDiTHub cloud-friendly, mobile-friendly, and user-friendly?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                   Yes. eAUDiTHub is designed for secure cloud access from anywhere, supports on-site audits from Android devices with photo evidence, and keeps the user experience intuitive for audit teams.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-200">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    How easily can eAUDiTHub be tailored to fit a business?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    eAUDiTHub is flexible. It can be adapted for facility management, checklists, skills matrix needs, and related audit workflows to fit specific operational requirements.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Will eAUDiTHub help us achieve a paperless audit?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Yes. It simplifies the full audit process from planning to corrective action, captures data electronically, standardizes procedures, and provides real-time visibility without relying on paper records.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Will eAUDiTHub help with analytics?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Yes. eAUDiTHub provides dynamic reporting across frequency and quantitative results, helping teams analyze trends, identify improvements, and act through real-time dashboards.
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    How does eAUDiTHub support compliance management?
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    It evaluates systems against regulatory standards and internal policies, highlights non-compliance risks, and helps teams take prompt corrective action with structured follow-up.
+                                </div>
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted d-none">
+                                    SmartSchoolPlus is designed to integrate smoothly with existing systems, such as biometric devices, payment gateways, and other educational tools. Our team ensures a hassle-free integration process tailored to your school’s infrastructure.
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Started Section -->
+    <section class="app-download-section" style="overflow: visible;">
+        <div class="container reveal position-relative" style="z-index: 2;">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center text-lg-start position-relative">
+                    <!-- Audit Software Illustration -->
+                    <img src="images/solutions/eaudithub-hero.svg" alt="eAUDiTHub Digital Audit Software" class="demo-illustration acme-demo-illustration rounded-4">
+                </div>
+                <div class="col-lg-7 offset-lg-0">
+                    <h2 class="display-5 app-download-title mb-4 reveal">Ready to Revolutionize Your Audits?</h2>
+                    <p class="fs-5 text-muted mb-5 pe-lg-5 reveal delay-100">Experience mobile-first audit procedures, real-time compliance reporting, and powerful analytics designed specifically for modern audit teams. Streamline your operations and ensure standards alignment.</p>
+
+                    <div class="d-flex flex-wrap gap-3 reveal delay-200">
+                        <a href="https://www.eaudithub.com/" class="btn btn-primary btn-lg rounded-pill px-5">
+                            <i class="fas fa-calendar-check me-2"></i>Request Demo
+                        </a>
+                        <a href="https://www.eaudithub.com/" target="_blank" class="btn btn-outline-primary btn-lg rounded-pill px-5">
+                            <i class="fas fa-globe me-2"></i>Visit Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Get In Touch Section (Spans 2 logical columns) -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h5 class="footer-heading">Get In Touch</h5>
+                    <div class="footer-underline"></div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <h6 class="footer-subheading">Registered Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies Pvt. Ltd.<br>
+                                No. 231/77, S.H.C Complex,<br>
+                                Vaniyambadi Road,<br>
+                                Tirupattur District,<br>
+                                TN 635 601 INDIA.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-phone-alt"></i> +91 9626 800 800
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> binfo@boscosofttech.com
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="footer-subheading">Middle East Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies FZE<br>
+                                BC4, Business Park RAK Free<br>
+                                Trade Zone, Ras Al Khaimah,<br>
+                                UAE.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-mobile-alt"></i> +971 058 860 1821
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> info@boscosoft.ae
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-globe"></i> www.boscosoft.ae
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">About Us</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#career">Career</a></li>
+                        <li><a href="index.html#signup">Sign up</a></li>
+                        <li><a href="index.html#training">Training</a></li>
+                        <li><a href="index.html#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Solutions -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Solutions</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="acme-erp.html">Acme.erp</a></li>
+                        <li><a href="smart-school-plus.html">SmartSchoolPlus</a></li>
+                        <li><a href="higrade.html">HiGrade</a></li>
+                        <li><a href="medsysb.html">MedSysB</a></li>
+                        <li><a href="cristo.html">CristO</a></li>
+                        <li><a href="microfund.html">MicroFUND</a></li>
+                        <li><a href="eaudithub.html">eAUDiTHub</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-heading">Services</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="app-modernization.html">App Modernization</a></li>
+                        <li><a href="bespoke-solutions.html">Bespoke Solution</a></li>
+                        <li><a href="index.html#gen-ai">Gen AI Systems</a></li>
+                        <li><a href="erp-customization.html">ERP Customization</a></li>
+                        <li><a href="staff-augmentation.html">Staff Augmentation</a></li>
+                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a href="index.html#academy">Bosco Academy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="copyright-text">&copy; 2026 <span class="text-teal"></span>Bosco Soft Technologies
+                            Pvt. Ltd.</span> All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-policy-links">
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Refund Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Mobile CTA Bar -->
+    <div class="mobile-cta-bar">
+        <a href="tel:+914443585002" class="btn btn-primary">
+            <i class="fas fa-phone-alt me-2"></i> Call Us
+        </a>
+        <a href="https://wa.me/919444000000" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp me-2"></i> WhatsApp
+        </a>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/solution-page.js"></script>
+    
+    <!-- Immediate reveal fallback -->
+    <script>
+        (function() {
+            function revealAll() {
+                document.querySelectorAll('[class*="reveal"]').forEach(el => {
+                    el.classList.add('active');
+                });
+            }
+            
+            // Immediate reveal
+            revealAll();
+            
+            // Re-run after each paint
+            setTimeout(revealAll, 100);
+            setTimeout(revealAll, 300);
+            setTimeout(revealAll, 500);
+            
+            // Periodic check
+            setInterval(revealAll, 1000);
+        })();
+    </script>
+</body>
+
+</html>

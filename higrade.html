@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HiGrade - Intelligent Automation for Next-Gen Higher Education ERP Management. Streamline college administration, student lifecycle, and academic excellence.">
+    <meta name="keywords"
+        content="Higher Education ERP, College Management System, University ERP, HiGrade, Academic Management, Student Information Management">
+    <meta name="author" content="BoscoSoft Technologies">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.boscosofttech.com/higrade.html">
+    <meta property="og:title" content="HiGrade | Intelligent Automation for Higher Education ERP | BoscoSoftTech">
+    <meta property="og:description"
+        content="Transform your institution with HiGrade - a smart, scalable college ERP designed to streamline academic and administrative workflows.">
+    <meta property="og:image" content="https://www.boscosofttech.com/images/higrade-hero.jpg">
+
+    <link rel="canonical" href="https://www.boscosofttech.com/higrade.html">
+    <title>HiGrade | Higher Education ERP | College Management System | BoscoSoftTech</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/bosco-logo.png" alt="BoscoSoft Technologies Logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="d-flex justify-content-end d-lg-none p-3">
+                    <button class="btn-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-label="Close"></button>
+                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item py-2 px-4" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="mission.html">Mission & Vision</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Solutions Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Solutions</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Solutions</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-4 text-white-50">
+                                            Enterprise-grade software designed for schools, hospitals, and NGOs.
+                                        </p>
+                                        <a href="index.html#portfolio"
+                                            class="btn btn-outline-light btn-sm rounded-pill px-4">View
+                                            All Products</a>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Enterprise Solutions</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="acme-erp.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-chart-line"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Acme.erp</span>
+                                                        <span class="mega-menu-desc">NGO Financial Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="smart-school-plus.html"
+                                                    class="mega-menu-item dropdown-item active">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">SmartSchool+</span>
+                                                        <span class="mega-menu-desc">School Management ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="higrade.html" class="mega-menu-item dropdown-item active">
+                                                    <div class="mega-menu-icon"><i class="fas fa-university"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">HiGrade</span>
+                                                        <span class="mega-menu-desc">Higher Education ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="medsysb.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-hospital-user"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MedSysB</span>
+                                                        <span class="mega-menu-desc">Hospital Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="cristo.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-church"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">CristO</span>
+                                                        <span class="mega-menu-desc">Religious Resource Planning</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="microfund.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-coins"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MicroFUND</span>
+                                                        <span class="mega-menu-desc">Microfinance Solutions</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="eaudithub.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-clipboard-check"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">eAUDiTHub</span>
+                                                        <span class="mega-menu-desc">Digital Audit & Compliance</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center">
+                                        <div class="mega-menu-promo text-center">
+                                            <img src="images/banking-system.jpg" alt="Special Offer"
+                                                class="mega-menu-promo-img img-fluid" loading="lazy">
+                                            <h6 class="fw-bold mb-2">New: AI Copilot</h6>
+                                            <p class="small text-muted mb-3">Transform your administration with our
+                                                latest AI analytical tools.</p>
+                                            <a href="index.html#contact"
+                                                class="btn btn-primary btn-sm rounded-pill">Explore
+                                                Beta</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Services Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Services</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-0 text-white-50">
+                                            Comprehensive software services and bespoke solutions tailored for the
+                                            modern digital era.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Expertise & Services</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="app-modernization.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-sync-alt"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">App Modernization</span>
+                                                        <span class="mega-menu-desc">Legacy to Cloud Transition</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="bespoke-solutions.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-tools"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bespoke Solution</span>
+                                                        <span class="mega-menu-desc">Tailored Software Design</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#gen-ai" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-robot"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Gen AI Systems</span>
+                                                        <span class="mega-menu-desc">AI-Driven Business Logic</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="erp-customization.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-cogs"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">ERP Customization</span>
+                                                        <span class="mega-menu-desc">Specialized Module Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="staff-augmentation.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-users-cog"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Staff Augmentation</span>
+                                                        <span class="mega-menu-desc">Expert On-Demand Talent</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#academy" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bosco Academy</span>
+                                                        <span class="mega-menu-desc">Professional Skill Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center text-center">
+                                        <div class="mega-menu-promo">
+                                            <i class="fas fa-lightbulb text-primary fs-1 mb-3"></i>
+                                            <h6 class="fw-bold mb-2">Need a Custom Quote?</h6>
+                                            <p class="small text-muted mb-3">Our experts are ready to help you define
+                                                your technical roadmap.</p>
+                                            <a href="index.html#contact" class="btn btn-primary btn-sm">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#career">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-primary rounded-pill px-4" href="#contact">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HiGrade Hero Section -->
+    <div class="higrade-hero-wrapper">
+        <section class="higrade-hero-section section-padding pt-5">
+            <div class="container">
+                <!-- Breadcrumbs -->
+                <nav aria-label="breadcrumb" class="mb-5">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.html#portfolio">Solutions</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">HiGrade</li>
+                    </ol>
+                </nav>
+                <div class="row align-items-center">
+                    <div class="col-lg-12 hero-text-col text-center">
+                        <span class="higrade-hero-tag mb-3 d-inline-block">INTELLIGENT AUTOMATION FOR HIGHER EDUCATION</span>
+                        <h1 class="higrade-hero-title mb-4">
+                            The modular, integrated, <span>AI-powered digital ecosystem for Global higher education Campuses</span>
+                        </h1>
+                        <p class="higrade-hero-desc mb-5">
+                           Transform your institution with HiGrade Cloud — the modular, AI‑powered higher education ERP that integrates academics, finance, HR, and campus operations into one seamless platform. From admissions to alumni, empower your institution with secure mobile access and global scalability.
+                        </p>
+                        <div class="higrade-hero-btns d-flex flex-wrap gap-3 justify-content-center">
+                            <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-4">Request Free Demo</a>
+                            <a href="https://higrade.live/" target="_blank"
+                                class="btn btn-outline-primary btn-lg rounded-pill px-4">Explore Website</a>
+                        </div>
+                        <div class="higrade-stats-card mt-5">
+                            <div class="hero-trust-stats d-flex flex-wrap gap-4 justify-content-center w-100">
+                                <div class="stat-item">
+                                    <h4 class="mb-0 fw-bold">50+</h4>
+                                    <p class="small text-light mb-0">Colleges</p>
+                                </div>
+                                <div class="stat-item border-start border-light border-opacity-25 ps-sm-4 text-start">
+                                    <h4 class="mb-0 fw-bold">100+</h4>
+                                    <p class="small text-light mb-0">Principals & Directors</p>
+                                </div>
+                                <div class="stat-item border-start border-light border-opacity-25 ps-sm-4 text-start">
+                                    <h4 class="mb-0 fw-bold">60,000+</h4>
+                                    <p class="small text-light mb-0">Students</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="transform-bg-polygon" style="background:#f8f9fa" aria-hidden="true"></div>
+        </section>
+    </div>
+
+
+    <!-- Manual-Scroll Modules Section -->
+    <section id="modules" class="section-padding bg-pattern-circuit overflow-hidden pb-5">
+
+        <div class="container reveal mb-5 text-center">
+            <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                style="letter-spacing: 2px; font-size: 0.85rem;">FUNCTIONAL CATEGORIES</span>
+            <h2 class="section-title display-6 fw-bold text-dark mb-3">Smarter Features for Smarter Institutions</h2>
+            <p class="text-muted mx-auto fs-5 reveal delay-100" style="max-width: 700px;">HiGrade offers a comprehensive suite of integrated modules designed to streamline operations across diverse higher education ecosystems — whether in India, Africa, Europe, or beyond.</p>
+        </div>
+
+        <div class="container position-relative">
+            <div class="modules-scroll-container pb-4" id="modulesScrollContainer">
+                <div class="modules-scroll-track reveal delay-200" id="modulesScrollTrack">
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-book-open"></i></div>
+                        <div class="module-new-title">Academic Programme Management</div>
+                        <div class="module-new-desc">Manage curriculum lifecycles and programme offerings with global accreditation compliance.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-clipboard-check"></i></div>
+                        <div class="module-new-title">Student Evaluation & Examination</div>
+                        <div class="module-new-desc">End‑to‑end exam management with outcome‑based education (OBE) mapping.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="module-new-title">Student Lifecycle Management</div>
+                        <div class="module-new-desc">Admissions to graduation, powered by AI‑driven student success dashboards.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-users"></i></div>
+                        <div class="module-new-title">Staff Lifecycle & HR Management</div>
+                        <div class="module-new-desc">Faculty records, leave, and payroll with compliance‑ready reporting.
+</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-credit-card"></i></div>
+                        <div class="module-new-title">Finance & Accounts</div>
+                        <div class="module-new-desc">Real‑time fee tracking and financial controls with multi‑currency support.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <div class="module-new-title">Knowledge Delivery (LMS)</div>
+                        <div class="module-new-desc"> Integrated learning management system for blended and digital classrooms.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-comments"></i></div>
+                        <div class="module-new-title">Smart Notifications</div>
+                        <div class="module-new-desc">Real‑time SMS/email alerts for attendance, grades, and announcements.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="module-new-title">Mobile Access for All Stakeholders</div>
+                        <div class="module-new-desc">Android/iOS apps for management, faculty, parents, and students.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="module-new-title">Tailored Reports & Data Exports</div>
+                        <div class="module-new-desc">Customizable reports aligned with NAAC, NBA, and ISO standards.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-building"></i></div>
+                        <div class="module-new-title">Multi‑Campus Management</div>
+                        <div class="module-new-desc">Centralized control for institutions with multiple campuses worldwide.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-globe"></i></div>
+                        <div class="module-new-title">Dynamic CMS‑Integrated Website</div>
+                        <div class="module-new-desc">Keep your institution’s website updated with news, events, and announcements.</div>
+                    </div>
+                    <div class="module-new-card">
+                        <div class="module-new-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="module-new-title">Secure, Anywhere Access</div>
+                        <div class="module-new-desc">GDPR/FERPA‑ready protocols for global compliance.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls (Bottom row) -->
+            <div class="d-flex justify-content-between align-items-center mt-4 modules-nav-row">
+                <a href="https://smartschoolonline.com/#sec-modules" target="_blank" class="btn btn-primary rounded-pill px-4 py-2">View all services <i class="fas fa-chevron-right ms-2 fs-6"></i></a>
+
+                <div class="modules-pagination d-flex gap-2" id="modulesPagination">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="modules-arrows d-flex gap-2">
+                    <button type="button" class="btn slider-btn-oval shadow-sm" id="btnScrollLeft"><i class="fas fa-chevron-left"></i></button>
+                    <button type="button" class="btn slider-btn-oval shadow-sm" id="btnScrollRight"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Background Elements -->
+        <div class="floating-bg-elements">
+            <div class="floating-shape floating-circle" style="top: 15%; left: 10%; animation-delay: 0s;"></div>
+            <div class="floating-shape floating-circle" style="top: 40%; right: 15%; animation-delay: 2s;"></div>
+            <div class="floating-shape floating-square" style="bottom: 25%; left: 25%; animation-delay: 4s;"></div>
+            <div class="floating-shape floating-circle" style="top: 60%; right: 25%; animation-delay: 1s;"></div>
+            <div class="floating-shape floating-square" style="bottom: 10%; right: 10%; animation-delay: 3s;"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-padding text-dark position-relative">
+        <!-- Parallax Light Overlay isolated to prevent Chrome transform bugs -->
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url('images/case-study-school.jpg'); background-size: cover; background-attachment: fixed; z-index: -2;">
+        </div>
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(240, 248, 255, 0.85); z-index: -1;">
+        </div>
+
+        <div class="container reveal">
+            <div class="text-center mb-4 reveal" style="transition-delay: 0.4s;">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">KEY FEATURES</span>
+                <h2 class="display-5 fw-bold text-dark mb-3 lh-base">Transform Your Institution with <span
+                        class="text-primary">Smarter Features</span></h2>
+                <p class="fs-6 text-muted mb-0">Modern interface, secure access, and comprehensive support for your institution's success.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Row 1 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.1s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-laptop fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Modern & Intuitive Interface</h6>
+                        <p class="small text-white opacity-75 mb-0">HiGrade is designed with a clean, user-friendly interface that makes daily operations simple for administrators, faculty, students, and parents. Its modern dashboard, easy navigation, and well-structured modules reduce complexity and improve productivity across the institution.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.2s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-lock fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Secure, Anywhere Access</h6>
+                        <p class="small text-dark opacity-75 mb-0">Access HiGrade anytime, anywhere with confidence. Built on secure cloud technology, the platform ensures data protection and privacy with globally recognized compliance standards including GDPR, FERPA, and ISO/IEC 27001. Your institution’s information remains safe, reliable, and always available when you need it.</p>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.3s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-headset fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">End‑to‑End Service Support </h6>
+                        <p class="small text-white opacity-75 mb-0">From implementation to long-term success, HiGrade provides complete service support at every stage. Our team assists with installation, onboarding, training, migration, and dedicated customer support, ensuring a smooth transition and continuous operational excellence for your institution.
+</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.5s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-expand fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Fully Scalable for Growth</h6>
+                        <p class="small text-dark opacity-75 mb-0">Whether you are managing a single college, a multi-campus institution, or an international education network, HiGrade grows with you. The platform is built to scale seamlessly, supporting increasing users, departments, campuses, and academic structures without compromising performance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.6s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-file-alt fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Tailored Reports & Data Exports</h6>
+                        <p class="small text-white opacity-75 mb-0">Make informed decisions with customized reporting tools and flexible data export options. HiGrade enables institutions to generate academic, financial, administrative, and performance reports in formats that suit their workflows, helping leadership gain valuable insights and improve efficiency.</p>
+                    </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="col-md-4 reveal" style="transition-delay: 0.7s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-mobile-alt fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Mobile Access for All Stakeholders</h6>
+                        <p class="small text-dark opacity-75 mb-0">Stay connected on the go with mobile-friendly access for administrators, faculty, students, parents, and management teams. HiGrade ensures that important updates, attendance, communication, schedules, and performance tracking are always accessible from any device.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.8s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-graduation-cap fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Easy to Learn, Easy to Use</h6>
+                        <p class="small text-white opacity-75 mb-0">HiGrade is built for simplicity. With an intuitive layout and easy-to-understand workflows, users can quickly adapt to the system with minimal training. This reduces the learning curve and helps institutions achieve faster adoption across all departments.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 0.9s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #ffffff;">
+                        <i class="fas fa-coins fa-2x mb-3" style="color: #005a8c;"></i>
+                        <h6 class="fw-bold text-dark mb-2 pb-2">Cost-Effective Pricing</h6>
+                        <p class="small text-dark opacity-75 mb-0">HiGrade offers flexible and affordable subscription plans designed to suit institutions of different sizes. With a cost-effective pricing model, colleges can access enterprise-grade ERP capabilities without heavy upfront investment, making digital transformation both practical and sustainable.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="transition-delay: 1.0s;">
+                    <div class="p-4 rounded-4 h-100 feature-grid-card border border-light shadow-sm"
+                        style="background-color: #005a8c;">
+                        <i class="fas fa-globe fa-2x mb-3 text-white"></i>
+                        <h6 class="fw-bold text-white mb-2 pb-2">Dynamic CMS-Integrated Website</h6>
+                        <p class="small text-white opacity-75 mb-0">HiGrade goes beyond ERP by offering a CMS-integrated institutional website solution. Institutions can manage admissions pages, announcements, news, events, course details, and other website content directly through a dynamic content management system—ensuring a consistent digital presence with easy updates and seamless integration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-light position-relative z-1">
+        <div class="testimonial-gradient-bg"></div>
+        <div class="testimonial-floating-bg">
+            <div class="test-floating-shape test-floating-circle" style="top: 20%; left: 12%; animation-delay: 0s;"></div>
+            <div class="test-floating-shape test-floating-blob" style="top: 75%; right: 10%; width: 90px; height: 90px; animation-delay: 1.4s;"></div>
+            <div class="test-floating-shape test-floating-circle" style="top: 50%; left: 70%; animation-delay: 2.2s;"></div>
+            <div class="test-floating-shape test-floating-blob" style="bottom: 10%; left: 20%; width: 75px; height: 75px; animation-delay: 3s;"></div>
+        </div>
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">SUCCESS STORIES</span>
+                <h2 class="section-title display-6 fw-bold text-dark mb-3">Trusted by Higher Education Institutions</h2>
+                <p class="text-muted mx-auto fs-5 reveal delay-100" style="max-width: 700px;">Hear from principals, academic leaders, and administrators who transformed campus operations with HiGrade ERP.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Left Column: Testimonial Cards -->
+                <div class="col-lg-6">
+                    <div class="testimonial-cards-container">
+                        <!-- Testimonial Card 1 -->
+                        <div class="testimonial-card mb-4 reveal">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“Kudos to Boscosoft Team for strategizing and developing a comprehensive and effective ERP for automation of HEIs. St. Alphonsa College of Arts and Science, Karungal is very happy to manage the College through HiGrade. We are very happy to receive prompt services in managing and resolving issues. Keep up the good work and come out with newer modules and features for effective management of HEIs””</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Dr.S.Isias</h6>
+                                    <small class="text-muted">Principal, St.Alphonsa College of Art and Science, Kanyakumari</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 2 -->
+                        <div class="testimonial-card mb-4 reveal delay-200">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“The HiGrade ERP offered by Bosco Soft Technologies enables our institute to move towards excellence. With various possibilities of analysis and report generation, we are endowed with transparency, accountability and systematization. It helps both the staff and the students to be aware and to be exact in their duties and responsibilities. With many processes made simple, we are now able to invest our time and energy, not so much in maintaining the records, but in the formation of students. Thanks to Boscosoft.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Fr.Prince Raja SDB</h6>
+                                    <small class="text-muted">Dean of Studies, Don Bosco Polytechnic College, Tharangambadi</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 3 -->
+                        <div class="testimonial-card mb-4 reveal delay-400">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“We had two strong months so far with the HiGrade ERP portal. As an institution believes in the trustworthiness of a software, you have made it to the next level of executing reliability and convenience. The portal is user friendly and easily operated and understood by faculty members. The availability of the technical staff to clarify any doubts either at the level of admin or faculty is appreciable”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Dr.Deepa BMDr.Deepa BM</h6>
+                                    <small class="text-muted">Principal, Scared Heart Degree College for Women, Bengaluru</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 4 -->
+                        <div class="testimonial-card reveal delay-600">
+                            <div class="testimonial-card-content">
+                                <div class="testimonial-quote-icon mb-3">
+                                    <i class="fas fa-quote-left text-primary"></i>
+                                </div>
+                                <p class="testimonial-text mb-4">“I appreciate the initiatives taken by Boscosoft to make our dream realized in the form of HiGrade ERP. It can be of great help for the higher education institution to keep them up to date. The options provided are user-friendly. The customer support is prompt and standard. Congratulations to the team and all those who are accompanying them. God bless you all.”</p>
+                                <div class="testimonial-author">
+                                    <h6 class="mb-1 fw-bold">Fr.S.Bharathi Bernadsha</h6>
+                                    <small class="text-muted">Vice Principal, Don Bosco College, Dharmapuri</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Single Image -->
+                <div class="col-lg-6">
+                    <div class="testimonial-image-container reveal delay-300">
+                        <div class="testimonial-main-image">
+                            <img src="images/case-study-school.jpg" alt="HiGrade Campus Management" class="img-fluid rounded-3 shadow-lg">
+                            <div class="testimonial-image-overlay">
+                                <div class="testimonial-image-badge">
+                                    <i class="fas fa-school text-white me-2"></i>
+                                    <span class="text-white fw-bold">Campus Transformation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Marquee -->
+    <section class="py-5 bg-white overflow-hidden border-top">
+        <div class="container">
+            <div class="text-center mb-4 reveal">
+                <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                    style="letter-spacing: 2px; font-size: 0.85rem;">TRUSTED BY INSTITUTES AROUND THE WORLD</span>
+            </div>
+            <div class="partners-marquee-container">
+                <div class="partners-marquee-track">
+                    <div class="partner-item"><img src="images/higrade/client01.avif" alt="Don Bosco School"></div>
+                    <div class="partner-item"><img src="images/higrade/client012.avif" alt="St. Bedes Academy"></div>
+                    <div class="partner-item"><img src="images/higrade/client03.avif" alt="Auxilium School"></div>
+                    <div class="partner-item"><img src="images/higrade/client04.avif" alt="Holy Angels’ Public School"></div>
+                    <div class="partner-item"><img src="images/higrade/client05.avif" alt="Cluny Matriculation"></div>
+                    <div class="partner-item"><img src="images/higrade/client06.avif" alt="St. Paul's School"></div>
+                    <!-- Duplicate for continuous scrolling -->
+                    <div class="partner-item"><img src="images/higrade/client07.avif" alt="Don Bosco School"></div>
+                    <div class="partner-item"><img src="images/higrade/client08.avif" alt="St. Bedes Academy"></div>
+                    <div class="partner-item"><img src="images/higrade/client09.avif" alt="Auxilium School"></div>
+                    <div class="partner-item"><img src="images/higrade/client10.avif" alt="Holy Angels’ Public School"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding position-relative overflow-hidden border-top">
+        <div class="faq-gradient-bg"></div>
+        <div class="faq-grid-overlay"></div>
+        <div class="container position-relative z-1">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="sticky-top" style="top: 120px;">
+                        <div class="text-start reveal reveal-left">
+                            <span class="section-label d-block text-uppercase fw-bold text-primary mb-2"
+                                style="letter-spacing: 2px; font-size: 0.85rem;">FAQ</span>
+                            <h2 class="section-title display-6 fw-bold text-dark mb-3">Common questions about<br>HiGrade</h2>
+                            <p class="text-muted pe-md-4 fs-5 reveal delay-100">Find answers to common questions about
+                                HiGrade implementation and features. Discover how we can transform your
+                                college administration and academic operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="accordion" id="sspFaq">
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-100">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    What is HiGrade?  
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                   A unified ERP + AI platform for higher education institutions, streamlining administration, academics, and compliance.
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-200">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                   Is HiGrade mobile‑ready?  
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Yes, with dedicated Android/iOS apps for faculty, students, parents, and management.
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Is HiGrade accreditation‑compliant?  
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Yes, aligned with NAAC, NBA, NIRF, ISO standards, and global compliance frameworks (GDPR, FERPA).
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-item border-0 border-bottom bg-transparent mb-0 overflow-hidden reveal delay-300">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button bg-transparent fw-bold text-dark collapsed px-0 py-4 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    What support is provided?  
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#sspFaq">
+                                <div class="accordion-body px-0 pt-0 pb-4 text-muted">
+                                    Complete onboarding, training, and 24/7 technical support via phone, email, and chat.
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download App Section -->
+    <section class="app-download-section" style="overflow: visible;">
+        <div class="container reveal position-relative" style="z-index: 2;">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center text-lg-start position-relative">
+                    <!-- App Mockup matching first image style -->
+                    <img src="images/higrade/mobile-app.png" alt="Download App iOS Android" 
+                    class="demo-illustration rounded-4">
+                </div>
+                <div class="col-lg-7 offset-lg-0">
+                    <h2 class="display-5 app-download-title mb-4 reveal">Download HiGrade Mobile App<br>for Faculty, Students & Parents
+                    </h2>
+                    <p class="fs-5 text-muted mb-5 pe-lg-5 reveal delay-100">Stay connected with real-time access to academic information, attendance, grades, announcements, and more. Access HiGrade anytime, anywhere from your mobile device.</p>
+
+                    <div class="d-flex flex-wrap gap-3 reveal delay-200">
+                        <a href="https://apps.apple.com/us/app/higrade/id6476916403" target="_blank" class="btn-store text-decoration-none shadow-sm">
+                            <i class="fab fa-apple"></i>
+                            <div class="text-start lh-1">
+                                <small
+                                    style="font-size: 10px; display: block; opacity: 0.8; margin-bottom: 2px;">Available
+                                    on the</small>
+                                <span class="fw-bold fs-6">App Store</span>
+                            </div>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.higrade" target="_blank" class="btn-store text-decoration-none shadow-sm">
+                            <i class="fab fa-google-play"></i>
+                            <div class="text-start lh-1">
+                                <small style="font-size: 10px; display: block; opacity: 0.8; margin-bottom: 2px;">GET IT
+                                    ON</small>
+                                <span class="fw-bold fs-6">Google Play</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Get In Touch Section (Spans 2 logical columns) -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h5 class="footer-heading">Get In Touch</h5>
+                    <div class="footer-underline"></div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <h6 class="footer-subheading">Registered Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies Pvt. Ltd.<br>
+                                No. 231/77, S.H.C Complex,<br>
+                                Vaniyambadi Road,<br>
+                                Tirupattur District,<br>
+                                TN 635 601 INDIA.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-phone-alt"></i> +91 9626 800 800
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> binfo@boscosofttech.com
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="footer-subheading">Middle East Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies FZE<br>
+                                BC4, Business Park RAK Free<br>
+                                Trade Zone, Ras Al Khaimah,<br>
+                                UAE.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-mobile-alt"></i> +971 058 860 1821
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> info@boscosoft.ae
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-globe"></i> www.boscosoft.ae
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">About Us</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#career">Career</a></li>
+                        <li><a href="index.html#signup">Sign up</a></li>
+                        <li><a href="index.html#training">Training</a></li>
+                        <li><a href="index.html#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Solutions -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Solutions</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="acme-erp.html">Acme.erp</a></li>
+                        <li><a href="smart-school-plus.html">SmartSchoolPlus</a></li>
+                        <li><a href="higrade.html">HiGrade</a></li>
+                        <li><a href="medsysb.html">MedSysB</a></li>
+                        <li><a href="cristo.html">CristO</a></li>
+                        <li><a href="microfund.html">MicroFUND</a></li>
+                        <li><a href="eaudithub.html">eAUDiTHub</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-heading">Services</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="app-modernization.html">App Modernization</a></li>
+                        <li><a href="bespoke-solutions.html">Bespoke Solution</a></li>
+                        <li><a href="index.html#gen-ai">Gen AI Systems</a></li>
+                        <li><a href="erp-customization.html">ERP Customization</a></li>
+                        <li><a href="staff-augmentation.html">Staff Augmentation</a></li>
+                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a href="index.html#academy">Bosco Academy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="copyright-text">&copy; 2026 <span class="text-teal"></span>Bosco Soft Technologies
+                            Pvt. Ltd.</span> All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-policy-links">
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Refund Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Mobile CTA Bar -->
+    <div class="mobile-cta-bar">
+        <a href="tel:+914443585002" class="btn btn-primary">
+            <i class="fas fa-phone-alt me-2"></i> Call Us
+        </a>
+        <a href="https://wa.me/919444000000" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp me-2"></i> WhatsApp
+        </a>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/solution-page.js"></script>
+    
+    <!-- Immediate reveal fallback -->
+    <script>
+        (function() {
+            function revealAll() {
+                document.querySelectorAll('[class*="reveal"]').forEach(el => {
+                    el.classList.add('active');
+                });
+            }
+            
+            // Immediate reveal
+            revealAll();
+            
+            // Re-run after each paint
+            setTimeout(revealAll, 100);
+            setTimeout(revealAll, 300);
+            setTimeout(revealAll, 500);
+            
+            // Periodic check
+            setInterval(revealAll, 1000);
+        })();
+    </script>
+</body>
+
+</html>
+

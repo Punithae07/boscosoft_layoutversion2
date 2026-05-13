@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Adapt enterprise platforms to your operating reality with BoscoSoft ERP Customization services. Fit workflows, modules, reports, and integrations to your business.">
+    <meta name="author" content="BoscoSoft Technologies">
+    <title>ERP Customization | BoscoSoft Technologies</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="service-detail-page">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/bosco-logo.png" alt="BoscoSoft Technologies - Enterprise ERP Solutions">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="d-flex justify-content-end d-lg-none p-3">
+                    <button class="btn-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-label="Close"></button>
+                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item py-2 px-4" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="mission.html">Mission & Vision</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Solutions Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Solutions</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Solutions</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-4 text-white-50">
+                                            Enterprise-grade software designed for schools, hospitals, and NGOs.
+                                        </p>
+                                        <a href="index.html#portfolio"
+                                            class="btn btn-outline-light btn-sm rounded-pill px-4">View
+                                            All Products</a>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Enterprise Solutions</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="acme-erp.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-chart-line"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Acme.erp</span>
+                                                        <span class="mega-menu-desc">NGO Financial Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="smart-school-plus.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">SmartSchool+</span>
+                                                        <span class="mega-menu-desc">School Management ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="higrade.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-university"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">HiGrade</span>
+                                                        <span class="mega-menu-desc">Higher Education ERP</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="medsysb.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-hospital-user"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MedSysB</span>
+                                                        <span class="mega-menu-desc">Hospital Management</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="cristo.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-church"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">CristO</span>
+                                                        <span class="mega-menu-desc">Religious Resource Planning</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="microfund.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-coins"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">MicroFUND</span>
+                                                        <span class="mega-menu-desc">Microfinance Solutions</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="eaudithub.html" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-clipboard-check"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">eAUDiTHub</span>
+                                                        <span class="mega-menu-desc">Digital Audit & Compliance</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center">
+                                        <div class="mega-menu-promo text-center">
+                                            <img src="images/banking-system.jpg" alt="Special Offer"
+                                                class="mega-menu-promo-img img-fluid" loading="lazy">
+                                            <h6 class="fw-bold mb-2">New: AI Copilot</h6>
+                                            <p class="small text-muted mb-3">Transform your administration with our
+                                                latest AI analytical tools.</p>
+                                            <a href="index.html#contact" class="btn btn-primary btn-sm">Explore
+                                                Beta</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Services Mega Menu -->
+                    <li class="nav-item dropdown has-mega-menu">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu mega-menu shadow-lg border-0 p-0">
+                            <div class="container-fluid p-0">
+                                <div class="row g-0">
+                                    <div
+                                        class="col-lg-3 bg-primary text-white p-4 p-lg-5 d-flex flex-column justify-content-center">
+                                        <h3 class="fw-bold mb-3 text-white">Our Services</h3>
+                                        <hr class="bg-white opacity-100"
+                                            style="width: 50px; height: 3px; margin: 0 0 20px 0;">
+                                        <p class="mb-0 text-white-50">
+                                            Comprehensive software services and bespoke solutions tailored for the
+                                            modern digital era.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 bg-white p-4 p-lg-5">
+                                        <h5 class="mb-4 fw-bold text-dark">Expertise & Services</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <a href="app-modernization.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-sync-alt"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">App Modernization</span>
+                                                        <span class="mega-menu-desc">Legacy to Cloud Transition</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="bespoke-solutions.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-tools"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bespoke Solution</span>
+                                                        <span class="mega-menu-desc">Tailored Software Design</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#gen-ai" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-robot"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Gen AI Systems</span>
+                                                        <span class="mega-menu-desc">AI-Driven Business Logic</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="erp-customization.html"
+                                                    class="mega-menu-item dropdown-item active">
+                                                    <div class="mega-menu-icon"><i class="fas fa-cogs"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">ERP Customization</span>
+                                                        <span class="mega-menu-desc">Specialized Module Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="staff-augmentation.html"
+                                                    class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-users-cog"></i></div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Staff Augmentation</span>
+                                                        <span class="mega-menu-desc">Expert On-Demand Talent</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <a href="index.html#academy" class="mega-menu-item dropdown-item">
+                                                    <div class="mega-menu-icon"><i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="mega-menu-content">
+                                                        <span class="mega-menu-title">Bosco Academy</span>
+                                                        <span class="mega-menu-desc">Professional Skill Dev</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 bg-light p-4 p-lg-5 d-flex align-items-center text-center">
+                                        <div class="mega-menu-promo">
+                                            <i class="fas fa-lightbulb text-primary fs-1 mb-3"></i>
+                                            <h6 class="fw-bold mb-2">Need a Custom Quote?</h6>
+                                            <p class="small text-muted mb-3">Our experts are ready to help you define
+                                                your technical roadmap.</p>
+                                            <a href="index.html#contact" class="btn btn-primary btn-sm">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#career">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center gap-3">
+                        <a class="btn btn-primary rounded-pill px-4" href="index.html#contact">Get Custom Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="service-hero-section service-theme-erp" data-service-parallax-scope>
+        <div class="service-floating-orb" style="top: 8%; left: 6%;" data-service-parallax="1.4"></div>
+        <div class="service-floating-orb orb-sm" style="top: 62%; left: 50%;" data-service-parallax="1.8"></div>
+        <div class="service-floating-line" style="top: 14%; right: 10%;" data-service-parallax="0.8"></div>
+        <div class="container position-relative">
+            <nav aria-label="breadcrumb" class="mb-4 reveal">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white text-decoration-none opacity-75">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#services" class="text-white text-decoration-none opacity-75">Services</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">ERP Customization</li>
+                </ol>
+            </nav>
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7 reveal-left">
+                    <span class="service-hero-kicker"><i class="fas fa-cogs"></i> Specialized Module Development</span>
+                    <h1 class="service-hero-title mt-4">Make enterprise platforms <span>work the way your teams already operate.</span></h1>
+                    <p class="service-hero-desc">Our ERP customization service bridges the gap between standard enterprise software and the operational detail of your business. We reshape modules, approvals, reports, user roles, and integrations so the ERP supports your real process instead of forcing expensive workarounds.</p>
+                    <div class="service-chip-row">
+                        <span class="service-chip"><i class="fas fa-sliders"></i> Workflow Fit</span>
+                        <span class="service-chip"><i class="fas fa-table-columns"></i> Module Extensions</span>
+                        <span class="service-chip"><i class="fas fa-chart-pie"></i> Reporting Design</span>
+                    </div>
+                    <div class="service-hero-actions">
+                        <a href="index.html#contact" class="btn btn-light rounded-pill px-4 py-2">Plan An ERP Fit Review</a>
+                        <a href="#modernization-capabilities" class="btn btn-outline-light rounded-pill px-4 py-2">Explore Capabilities</a>
+                    </div>
+                    <div class="service-proof-strip reveal-up">
+                        <div class="service-proof-item">
+                            <strong>Fewer</strong>
+                            <span>Manual workarounds across core workflows</span>
+                        </div>
+                        <div class="service-proof-item">
+                            <strong>Clearer</strong>
+                            <span>Role-specific reporting and approval visibility</span>
+                        </div>
+                        <div class="service-proof-item">
+                            <strong>Stronger</strong>
+                            <span>Adoption because the platform reflects day-to-day operations</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 reveal-right">
+                    <div class="service-hero-panel" data-service-parallax="1.2">
+                        <div class="service-panel-grid">
+                            <div class="service-panel-card">
+                                <h3>ERP fit-gap control room</h3>
+                                <div class="service-panel-list">
+                                    <div class="service-panel-list-item">
+                                        <span>Fit-gap workshop</span>
+                                        <span class="service-panel-badge">Complete</span>
+                                    </div>
+                                    <div class="service-panel-list-item">
+                                        <span>Workflow redesign</span>
+                                        <span class="service-panel-badge">In progress</span>
+                                    </div>
+                                    <div class="service-panel-list-item">
+                                        <span>Reporting model</span>
+                                        <span class="service-panel-badge">Validated</span>
+                                    </div>
+                                    <div class="service-panel-list-item">
+                                        <span>Integration sequencing</span>
+                                        <span class="service-panel-badge">Queued</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-panel-stack">
+                                <div class="service-panel-stat">
+                                    <strong>3x</strong>
+                                    <span>Improvement in deployment velocity targets</span>
+                                </div>
+                                <div class="service-panel-mini">
+                                    <div class="service-panel-mini-card">
+                                        <strong>Refactor first</strong>
+                                        <span>Improve maintainability before scaling complexity.</span>
+                                    </div>
+                                    <div class="service-panel-mini-card">
+                                        <strong>Automate continuously</strong>
+                                        <span>Testing and release pipelines reduce migration risk.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding service-story-section bg-white" data-service-parallax-scope>
+        <div class="container">
+            <div class="row g-4 align-items-stretch">
+                <div class="col-lg-6 reveal-left">
+                    <div class="service-story-card h-100">
+                        <span class="service-section-label">Where We Start</span>
+                        <h2>ERP value grows when the platform matches real operational flow.</h2>
+                        <p>We start by mapping where the standard ERP creates friction: manual approvals, duplicate data entry, reporting blind spots, localized process rules, and integration gaps. That fit analysis becomes the basis for a practical customization roadmap.</p>
+                        <div class="service-emphasis-list">
+                            <div class="service-emphasis-item">
+                                <i class="fas fa-search"></i>
+                                <div>
+                                    <strong>Fit-gap analysis</strong>
+                                    <div class="text-muted">Understand exactly where standard ERP behavior diverges from operational reality.</div>
+                                </div>
+                            </div>
+                            <div class="service-emphasis-item">
+                                <i class="fas fa-code-branch"></i>
+                                <div>
+                                    <strong>Process-specific customization</strong>
+                                    <div class="text-muted">Adjust modules, forms, reports, and permissions for the way teams already work.</div>
+                                </div>
+                            </div>
+                            <div class="service-emphasis-item">
+                                <i class="fas fa-chart-line"></i>
+                                <div>
+                                    <strong>Adoption and control</strong>
+                                    <div class="text-muted">Balance usability, governance, and analytics so teams adopt the ERP with confidence.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 reveal-right">
+                    <div class="service-story-card h-100" data-service-parallax="0.9">
+                        <span class="service-section-label">Customization Lens</span>
+                        <h2>What we tune inside each ERP program.</h2>
+                        <div class="row g-3 mt-1">
+                            <div class="col-sm-6">
+                                <div class="service-proof-card h-100">
+                                    <strong>Architecture</strong>
+                                    <span>Composable systems</span>
+                                    <p>Untangle monoliths and isolate domains that need scale, reuse, or independent delivery.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="service-proof-card h-100">
+                                    <strong>Data</strong>
+                                    <span>Migration confidence</span>
+                                    <p>Protect data integrity with phased migrations, sync strategies, and rollback planning.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="service-proof-card h-100">
+                                    <strong>Experience</strong>
+                                    <span>Faster user journeys</span>
+                                    <p>Improve response times, task completion flow, and frontline usability during modernization.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="service-proof-card h-100">
+                                    <strong>Operations</strong>
+                                    <span>Release resilience</span>
+                                    <p>Introduce observability, CI/CD guardrails, and sustainable support models from day one.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modernization-capabilities" class="section-padding" style="background: linear-gradient(180deg, #f4f8fc 0%, #eef4fb 100%);" data-service-parallax-scope>
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="service-section-label">Capabilities</span>
+                <h2 class="service-section-heading">ERP tailoring that respects both process and platform integrity.</h2>
+                <p class="service-section-copy mx-auto" style="max-width: 760px;">We customize enterprise platforms without losing maintainability, reporting consistency, or upgrade discipline.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 reveal-up">
+                    <div class="service-capability-card">
+                        <div class="service-capability-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                        <h3>Fit-gap diagnostics</h3>
+                        <p>Map business exceptions, control needs, and operational bottlenecks against standard ERP capabilities.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Process and role analysis</li>
+                            <li><i class="fas fa-check"></i> Module gap identification</li>
+                            <li><i class="fas fa-check"></i> Prioritized customization roadmap</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal-up" data-delay="100">
+                    <div class="service-capability-card">
+                        <div class="service-capability-icon"><i class="fas fa-cloud-arrow-up"></i></div>
+                        <h3>Workflow and module tailoring</h3>
+                        <p>Adjust master data, transactions, approvals, and user journeys so the ERP aligns to real operations.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Form and screen customization</li>
+                            <li><i class="fas fa-check"></i> Role-based workflow controls</li>
+                            <li><i class="fas fa-check"></i> Localized business rule handling</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal-up" data-delay="200">
+                    <div class="service-capability-card">
+                        <div class="service-capability-icon"><i class="fas fa-cubes-stacked"></i></div>
+                        <h3>Reporting and dashboard design</h3>
+                        <p>Create operational and management reporting that reflects the metrics your teams actually track.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> KPI and MIS dashboards</li>
+                            <li><i class="fas fa-check"></i> Exception and variance reports</li>
+                            <li><i class="fas fa-check"></i> Executive decision views</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal-up">
+                    <div class="service-capability-card">
+                        <div class="service-capability-icon"><i class="fas fa-user-gear"></i></div>
+                        <h3>Adoption and usability refinement</h3>
+                        <p>Reduce resistance to ERP usage by improving task clarity, role views, and process guidance.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Simplified user journeys</li>
+                            <li><i class="fas fa-check"></i> Task-focused screen layouts</li>
+                            <li><i class="fas fa-check"></i> Training-ready interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal-up" data-delay="100">
+                    <div class="service-capability-card">
+                        <div class="service-capability-icon"><i class="fas fa-vial-circle-check"></i></div>
+                        <h3>Integration extensions</h3>
+                        <p>Connect the ERP cleanly to finance tools, HR systems, CRMs, payment services, and field applications.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> API and connector design</li>
+                            <li><i class="fas fa-check"></i> Data synchronization rules</li>
+                            <li><i class="fas fa-check"></i> Third-party system orchestration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal-up" data-delay="200">
+                    <div class="service-capability-card">
+                        <div class="service-capability-icon"><i class="fas fa-binoculars"></i></div>
+                        <h3>Upgrade-aware support</h3>
+                        <p>Protect maintainability by documenting changes and planning customization strategies that remain supportable over time.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Change documentation</li>
+                            <li><i class="fas fa-check"></i> Support and enhancement planning</li>
+                            <li><i class="fas fa-check"></i> Upgrade impact review</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-white">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="service-section-label">Delivery Motion</span>
+                <h2 class="service-section-heading">A structured path from fit-gap analysis to live adoption.</h2>
+            </div>
+            <div class="service-process-grid">
+                <div class="service-process-card reveal-up">
+                    <div class="service-process-step">01</div>
+                    <h3>Assess</h3>
+                    <p>Review standard platform behavior, process exceptions, approval chains, and reporting needs.</p>
+                </div>
+                <div class="service-process-card reveal-up" data-delay="100">
+                    <div class="service-process-step">02</div>
+                    <h3>Design</h3>
+                    <p>Define module changes, integration points, security rules, and reporting outputs before build begins.</p>
+                </div>
+                <div class="service-process-card reveal-up" data-delay="200">
+                    <div class="service-process-step">03</div>
+                    <h3>Configure</h3>
+                    <p>Implement extensions, role-specific workflows, reports, automations, and tested integration logic.</p>
+                </div>
+                <div class="service-process-card reveal-up" data-delay="300">
+                    <div class="service-process-step">04</div>
+                    <h3>Adopt</h3>
+                    <p>Support rollout, user transition, change requests, and continuous refinement after go-live.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding" style="background: linear-gradient(180deg, #eef4fb 0%, #f6f9fc 100%);">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="service-section-label">What Clients Gain</span>
+                <h2 class="service-section-heading">An ERP that feels aligned instead of adapted by workaround.</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 reveal-up">
+                    <div class="service-proof-card">
+                        <strong>Faster</strong>
+                        <span>Release Cadence</span>
+                        <p>Ship enhancements and fixes with more confidence thanks to modern pipelines and cleaner architecture.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 reveal-up" data-delay="100">
+                    <div class="service-proof-card">
+                        <strong>Lower</strong>
+                        <span>Maintenance Drag</span>
+                        <p>Reduce firefighting caused by brittle modules, unsupported components, and hidden dependencies.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 reveal-up" data-delay="200">
+                    <div class="service-proof-card">
+                        <strong>Clearer</strong>
+                        <span>Architecture Ownership</span>
+                        <p>Documented domains, cleaner interfaces, and better observability improve long-term team velocity.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 reveal-up" data-delay="300">
+                    <div class="service-proof-card">
+                        <strong>Better</strong>
+                        <span>User Experience</span>
+                        <p>Modern systems should feel easier to use for operators, managers, and customers from the first release onward.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-white">
+        <div class="container">
+            <div class="service-cta-card reveal" data-service-parallax-scope>
+                <span class="service-section-label" style="background: rgba(255,255,255,0.14); color: #fff;">Tune The Platform</span>
+                <h2 class="service-section-heading text-white">Your ERP should reflect the business, not the other way around.</h2>
+                <p>We can help you reshape enterprise modules, automate key workflows, and improve adoption without sacrificing governance or reporting discipline.</p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="index.html#contact" class="btn btn-light rounded-pill px-4 py-2">Request An ERP Review</a>
+                    <a href="index.html#services" class="btn btn-outline-light rounded-pill px-4 py-2">See More Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Get In Touch Section (Spans 2 logical columns) -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h5 class="footer-heading">Get In Touch</h5>
+                    <div class="footer-underline"></div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <h6 class="footer-subheading">Registered Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies Pvt. Ltd.<br>
+                                No. 231/77, S.H.C Complex,<br>
+                                Vaniyambadi Road,<br>
+                                Tirupattur District,<br>
+                                TN 635 601 INDIA.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-phone-alt"></i> +91 9626 800 800
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> binfo@boscosofttech.com
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="footer-subheading">Middle East Office</h6>
+                            <p class="footer-address">
+                                Bosco Soft Technologies FZE<br>
+                                BC4, Business Park RAK Free<br>
+                                Trade Zone, Ras Al Khaimah,<br>
+                                UAE.
+                            </p>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-mobile-alt"></i> +971 058 860 1821
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i> info@boscosoft.ae
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-globe"></i> www.boscosoft.ae
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">About Us</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="mission.html">Mission & Vision</a></li>
+                        <li><a href="index.html#career">Career</a></li>
+                        <li><a href="index.html#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Solutions -->
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Solutions</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="acme-erp.html">Acme.erp</a></li>
+                        <li><a href="smart-school-plus.html">SmartSchoolPlus</a></li>
+                        <li><a href="higrade.html">HiGrade</a></li>
+                        <li><a href="medsysb.html">MedSysB</a></li>
+                        <li><a href="cristo.html">CristO</a></li>
+                        <li><a href="microfund.html">MicroFUND</a></li>
+                        <li><a href="eaudithub.html">eAUDiTHub</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-heading">Services</h5>
+                    <div class="footer-underline"></div>
+                    <ul class="footer-links-list">
+                        <li><a href="app-modernization.html">App Modernization</a></li>
+                        <li><a href="bespoke-solutions.html">Bespoke Solution</a></li>
+                        <li><a href="index.html#gen-ai">Gen AI Systems</a></li>
+                        <li><a href="erp-customization.html">ERP Customization</a></li>
+                        <li><a href="staff-augmentation.html">Staff Augmentation</a></li>
+                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a href="index.html#academy">Bosco Academy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="copyright-text">&copy; 2026 Bosco Soft Technologies
+                            Pvt. Ltd. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-policy-links">
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Refund Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Mobile CTA Bar -->
+    <div class="mobile-cta-bar">
+        <a href="tel:+914443585002" class="btn btn-primary">
+            <i class="fas fa-phone-alt me-2"></i> Call Us
+        </a>
+        <a href="https://wa.me/919444000000" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp me-2"></i> WhatsApp
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script src="js/service-page.js"></script>
+
+    <!-- Custom CSS applied from global style.css -->
+
+</body>
+
+</html>
+
