@@ -211,6 +211,7 @@ img {
 .navbar {
     padding: 1rem 0;
     transition: var(--transition-base);
+    z-index: 1055;
 }
 
 .navbar.scrolled {
@@ -221,6 +222,10 @@ img {
 .navbar-brand {
     display: flex;
     align-items: center;
+}
+
+.navbar-container {
+    max-width: 1500px;
 }
 
 .navbar-brand img {
@@ -451,15 +456,23 @@ img {
    Mega Menu
    ==================== */
 @media (min-width: 992px) {
+    .navbar .navbar-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
     .navbar .has-mega-menu {
         position: static;
     }
 
     .navbar .mega-menu {
+        position: absolute;
         top: 100%;
         left: 0;
         right: 0;
         width: 100%;
+        max-height: calc(100vh - 82px);
+        overflow-y: auto;
         margin-top: 0;
         border-radius: 0;
         padding: 0;
@@ -468,7 +481,14 @@ img {
         display: none;
         animation: fadeIn 0.3s ease-in-out;
         pointer-events: auto;
+        z-index: 1100;
         /* Ensure events are captured */
+    }
+
+    .navbar .mega-menu .container-fluid {
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Robust hover bridge */
@@ -497,6 +517,10 @@ img {
 
     .navbar .mega-menu.show {
         display: block;
+    }
+
+    .navbar .has-mega-menu:not(:hover) .mega-menu.show {
+        display: none;
     }
 }
 
@@ -612,13 +636,17 @@ img {
 /* Mobile Mega Menu Adjustments */
 @media (max-width: 991px) {
     .navbar .mega-menu {
+        position: static;
         width: 100%;
+        max-height: none;
+        overflow: visible;
         margin-top: 1rem;
         background-color: var(--gray-50);
         box-shadow: none;
     }
 
     .mega-menu .col-lg-3,
+    .mega-menu .col-lg-6,
     .mega-menu .col-lg-5,
     .mega-menu .col-lg-4 {
         padding: 1.5rem !important;
