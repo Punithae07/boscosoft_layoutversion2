@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">CristO church management illustration</title>
+  <desc id="desc">A stylized church, stained-glass inspired shapes, people records, and donation dashboard for CristO.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b2545"/>
+      <stop offset="55%" stop-color="#164a7b"/>
+      <stop offset="100%" stop-color="#1b6ca8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f6c453"/>
+      <stop offset="100%" stop-color="#ffd98e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="100" cy="90" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="1080" cy="120" r="180" fill="#ffffff" opacity="0.05"/>
+  <rect x="90" y="110" width="420" height="520" rx="28" fill="#ffffff" opacity="0.1"/>
+  <rect x="128" y="148" width="344" height="444" rx="22" fill="#0e325b" stroke="#ffffff" stroke-opacity="0.16"/>
+  <rect x="170" y="196" width="260" height="210" rx="18" fill="#113f72"/>
+  <path d="M300 170v70m-35-35h70" stroke="url(#accent)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M205 406h190v118H205z" fill="#fef3d7"/>
+  <path d="M300 230l72 60v106H228V290z" fill="#1a6fb3"/>
+  <path d="M276 355h48v51h-48z" fill="#f6c453"/>
+  <circle cx="770" cy="240" r="148" fill="#ffffff" opacity="0.11"/>
+  <rect x="635" y="128" width="290" height="224" rx="26" fill="#ffffff"/>
+  <text x="675" y="183" fill="#113f72" font-size="42" font-family="Arial, sans-serif" font-weight="700">CristO</text>
+  <text x="675" y="225" fill="#4a6785" font-size="24" font-family="Arial, sans-serif">Church administration dashboard</text>
+  <rect x="675" y="260" width="205" height="16" rx="8" fill="#dce9f5"/>
+  <rect x="675" y="294" width="168" height="16" rx="8" fill="#dce9f5"/>
+  <rect x="675" y="328" width="140" height="16" rx="8" fill="#dce9f5"/>
+  <rect x="585" y="455" width="455" height="225" rx="28" fill="#ffffff" opacity="0.96"/>
+  <rect x="625" y="495" width="140" height="120" rx="18" fill="#0e325b"/>
+  <circle cx="695" cy="535" r="28" fill="#f6c453"/>
+  <rect x="664" y="570" width="62" height="18" rx="9" fill="#ffd98e"/>
+  <rect x="804" y="495" width="190" height="28" rx="14" fill="#dce9f5"/>
+  <rect x="804" y="545" width="160" height="24" rx="12" fill="#1b6ca8" opacity="0.18"/>
+  <rect x="804" y="587" width="128" height="24" rx="12" fill="#1b6ca8" opacity="0.12"/>
+  <path d="M925 420c36 0 65 29 65 65s-29 65-65 65-65-29-65-65 29-65 65-65z" fill="url(#accent)"/>
+  <path d="M925 448v74m-24-37h48" stroke="#0e325b" stroke-width="10" stroke-linecap="round"/>
+</svg>

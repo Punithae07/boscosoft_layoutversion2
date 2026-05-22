@@ -1,0 +1,164 @@
+/* ANIMATION VARIABLES & KEYFRAMES */
+
+/* Scroll-based reveal transitions */
+.reveal {
+  /* Visible by default to avoid empty placeholders when JS fails */
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s cubic-bezier(0.215, 0.61, 0.355, 1), 
+              transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+
+/* Parallax float transitions */
+.parallax-item {
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+}
+
+/* Floating bobbing loop animations for hero mockups */
+@keyframes float-slow {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(1deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+@keyframes float-medium {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(-1.5deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+@keyframes float-fast {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-7px) rotate(0.5deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+.anim-float-1 {
+  animation: float-slow 7s ease-in-out infinite;
+}
+
+.anim-float-2 {
+  animation: float-medium 5s ease-in-out infinite;
+}
+
+.anim-float-3 {
+  animation: float-fast 4s ease-in-out infinite;
+}
+
+/* Soft pulse for indicator lights */
+@keyframes pulse-cyan {
+  0% { box-shadow: 0 0 0 0 rgba(0, 188, 242, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(0, 188, 242, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 188, 242, 0); }
+}
+
+.pulse-active {
+  animation: pulse-cyan 2s infinite;
+}
+
+/* Tabs Fade In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Dashboard Mockup Bar Loading Animation */
+@keyframes growBar {
+  from { height: 0; }
+  to { height: var(--height); }
+}
+
+.mock-dash-bar.animate {
+  animation: growBar 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Connected Nodes Dash Pulse Animation */
+@keyframes dash {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.connection-line {
+  stroke-dasharray: 8, 4;
+  animation: dash 2.5s linear infinite;
+}
+
+/* Border Beam hover border animation */
+.border-beam {
+  position: relative;
+}
+
+.border-beam::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, var(--primary-base), var(--accent-cyan)) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.border-beam:hover::after {
+  opacity: 1;
+}
+
+/* Background blob pulses */
+@keyframes blob-pulse {
+  0% { transform: scale(1) translate(0px, 0px); }
+  33% { transform: scale(1.1) translate(30px, -50px); }
+  66% { transform: scale(0.9) translate(-20px, 20px); }
+  100% { transform: scale(1) translate(0px, 0px); }
+}
+
+.bg-blob {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 120, 212, 0.08) 0%, rgba(255,255,255,0) 70%);
+  filter: blur(40px);
+  z-index: 0;
+  pointer-events: none;
+  animation: blob-pulse 15s ease-in-out infinite;
+}
+
+.bg-blob-1 {
+  top: 10%;
+  right: -5%;
+  background: radial-gradient(circle, rgba(0, 188, 242, 0.08) 0%, rgba(255,255,255,0) 70%);
+  animation-delay: 0s;
+}
+
+.bg-blob-2 {
+  bottom: 20%;
+  left: -5%;
+  background: radial-gradient(circle, rgba(135, 100, 184, 0.06) 0%, rgba(255,255,255,0) 70%);
+  animation-delay: 5s;
+}
